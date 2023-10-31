@@ -1,0 +1,1355 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Mon Oct 30 2023 12:28:12 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="650a7aeba6c28976499496c0" data-wf-site="650a7aeba6c28976499496bb">
+<head>
+  <meta charset="utf-8">
+  <title>NocoDB Cloud</title>
+  <meta content="Instantly turn your Database into a No-Code Platform" name="description">
+  <meta content="NocoDB Cloud" property="og:title">
+  <meta content="Instantly turn your Database into a No-Code Platform" property="og:description">
+  <meta content="https://uploads-ssl.webflow.com/650a7aeba6c28976499496bb/6525509952f7acbb92bc7b08_Cloud%20Thumbnail.webp" property="og:image">
+  <meta content="NocoDB Cloud" property="twitter:title">
+  <meta content="Instantly turn your Database into a No-Code Platform" property="twitter:description">
+  <meta content="https://uploads-ssl.webflow.com/650a7aeba6c28976499496bb/6525509952f7acbb92bc7b08_Cloud%20Thumbnail.webp" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="https://cdn.nocodb.com/marketing-site/20231030123020/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.nocodb.com/marketing-site/20231030123020/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.nocodb.com/marketing-site/20231030123020/css/nocodb-com.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Manrope:200,300,regular,500,600,700,800"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="https://cdn.nocodb.com/marketing-site/20231030123020/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="https://cdn.nocodb.com/marketing-site/20231030123020/images/webclip.png" rel="apple-touch-icon">
+  <style>
+   .ck-banner {
+      visibility: hidden;
+   }
+   .grecaptcha-badge {
+      display: none !important;
+      visibility: hidden !important;
+   }
+  </style>
+</head>
+<body class="body">
+  <div class="w-layout-hflex ck-banner">
+    <div class="banner">
+      <h1 class="ck-text-pc">This website employs cookies to guarantee that you receive the optimal experience while using our platform.</h1>
+      <h1 class="ck-text-mobile">We use cookies for the best user experience.</h1>
+      <a href="privacy" target="_blank" class="w-inline-block">
+        <div class="ck-text-button">Details</div>
+      </a>
+      <a data-event="a:hero-section:start for free" href="#" class="ck-button w-button">Accept</a>
+    </div>
+  </div>
+  <div id="page-wrapper" class="page-wrapper">
+    <div id="home-hero-glow" class="blur-layer"></div>
+    <div class="home-navbar-section">
+      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-no-shadow-container-2 w-nav">
+        <div class="container-regular">
+          <div class="navbar-wrapper">
+            <a data-event="a:nav-bar:home" href="/" aria-current="page" class="navbar-brand w-nav-brand w--current"><img loading="eager" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/nocodb-text-logo.svg" alt="NocoDB Logo" class="image-16"></a>
+            <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+              <ul role="list" class="nav-menu-2 w-list-unstyled">
+                <li data-event="site/a:nav-bar:api-docs" class="navbar-list mobile">
+                  <a href="#How-it-works" class="nav-link">How it works</a>
+                </li>
+                <li data-event="site/a:nav-bar:api-docs" class="navbar-list mobile">
+                  <a href="#Why-NocoDB" class="nav-link">Why NocoDB ?</a>
+                </li>
+                <li data-event="site/a:nav-bar:migrate-from-airtable" class="navbar-list">
+                  <a href="migrate-from-airtable-to-nocodb" class="nav-link">Migrate from Airtable</a>
+                </li>
+                <li data-event="a:nav-bar:docs-dropdown" class="navbar-list dropdown">
+                  <div data-delay="0" data-hover="false" class="nav-dropdown w-dropdown">
+                    <div data-event="site/a:navbar:resources" class="nav-dropdown-toggle w-dropdown-toggle">
+                      <div>APIs</div>
+                      <div class="html-embed-3 w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list">
+                      <div class="dropdown hide">
+                        <div class="dropdown-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_471_9951" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                              <rect width="24" height="24" fill="currentColor"></rect>
+                            </mask>
+                            <g mask="url(#mask0_471_9951)">
+                              <path d="M8.03082 9.2346L11.2269 3.9962C11.3205 3.84235 11.4351 3.73273 11.5707 3.66735C11.7063 3.60197 11.8494 3.56927 12 3.56927C12.1506 3.56927 12.2937 3.60197 12.4293 3.66735C12.5649 3.73273 12.6795 3.84235 12.7731 3.9962L15.9692 9.2346C16.0628 9.38523 16.1096 9.54341 16.1096 9.70913C16.1096 9.87483 16.0711 10.0263 15.9942 10.1634C15.9173 10.3006 15.8115 10.4102 15.6769 10.4923C15.5423 10.5743 15.3852 10.6154 15.2057 10.6154H8.79427C8.61405 10.6154 8.45636 10.5739 8.32119 10.4911C8.18603 10.4082 8.0809 10.299 8.00582 10.1634C7.92889 10.0283 7.89042 9.87821 7.89042 9.71308C7.89042 9.54794 7.93722 9.38845 8.03082 9.2346ZM17.5 21.6154C16.3526 21.6154 15.3798 21.2163 14.5817 20.4182C13.7837 19.6202 13.3846 18.6474 13.3846 17.5C13.3846 16.3526 13.7837 15.3798 14.5817 14.5817C15.3798 13.7837 16.3526 13.3847 17.5 13.3847C18.6474 13.3847 19.6202 13.7837 20.4182 14.5817C21.2163 15.3798 21.6153 16.3526 21.6153 17.5C21.6153 18.6474 21.2163 19.6202 20.4182 20.4182C19.6202 21.2163 18.6474 21.6154 17.5 21.6154ZM3.38464 20.2112V14.7862C3.38464 14.53 3.47129 14.3157 3.64459 14.1433C3.81788 13.9709 4.03261 13.8847 4.28879 13.8847H9.71377C9.96995 13.8847 10.1843 13.9713 10.3567 14.1446C10.5291 14.3179 10.6153 14.5326 10.6153 14.7888V20.2138C10.6153 20.47 10.5287 20.6843 10.3554 20.8567C10.1821 21.0291 9.96738 21.1154 9.71119 21.1154H4.28622C4.03004 21.1154 3.81573 21.0287 3.64329 20.8554C3.47086 20.6821 3.38464 20.4674 3.38464 20.2112ZM17.4997 20.1154C18.232 20.1154 18.851 19.8626 19.3567 19.357C19.8625 18.8514 20.1154 18.2325 20.1154 17.5003C20.1154 16.768 19.8626 16.149 19.357 15.6433C18.8514 15.1375 18.2325 14.8846 17.5003 14.8846C16.768 14.8846 16.149 15.1374 15.6433 15.643C15.1375 16.1486 14.8846 16.7675 14.8846 17.4997C14.8846 18.232 15.1374 18.851 15.643 19.3567C16.1486 19.8625 16.7675 20.1154 17.4997 20.1154ZM4.88459 19.6154H9.11539V15.3846H4.88459V19.6154ZM9.83844 9.1154H14.1615L12 5.63845L9.83844 9.1154Z" fill="currentColor"></path>
+                            </g>
+                          </svg></div>
+                        <a data-event="a:navbar:resources:product-docs" href="http://docs.nocodb.com" target="_blank" class="nav-dropdown-link w-dropdown-link">Product Docs</a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_471_9957" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                              <rect width="24" height="24" fill="currentColor"></rect>
+                            </mask>
+                            <g mask="url(#mask0_471_9957)">
+                              <path d="M15.0192 19.5C14.8064 19.5 14.6282 19.4282 14.4846 19.2846C14.341 19.141 14.2692 18.9628 14.2692 18.75C14.2692 18.5372 14.341 18.359 14.4846 18.2154C14.6282 18.0718 14.8064 18 15.0192 18H16.7404C17.0878 18 17.3846 17.8817 17.6308 17.6452C17.8769 17.4086 18 17.1167 18 16.7692V14.7115C18 14.1167 18.1769 13.5833 18.5308 13.1115C18.8846 12.6397 19.3455 12.3115 19.9134 12.1269V11.8731C19.3455 11.6885 18.8846 11.3603 18.5308 10.8885C18.1769 10.4167 18 9.88335 18 9.28848V7.23078C18 6.88335 17.8769 6.59136 17.6308 6.35483C17.3846 6.11828 17.0878 6.00001 16.7404 6.00001H15.0192C14.8064 6.00001 14.6282 5.92821 14.4846 5.78463C14.341 5.64105 14.2692 5.46285 14.2692 5.25003C14.2692 5.03721 14.341 4.85901 14.4846 4.71543C14.6282 4.57183 14.8064 4.50003 15.0192 4.50003H16.7404C17.5032 4.50003 18.1538 4.76606 18.6923 5.29811C19.2307 5.83016 19.5 6.47438 19.5 7.23078V9.28848C19.5 9.64233 19.6246 9.93913 19.874 10.1789C20.1233 10.4186 20.4282 10.5385 20.7884 10.5385C20.9948 10.5385 21.165 10.6071 21.299 10.7443C21.433 10.8814 21.5 11.05 21.5 11.25V12.75C21.5 12.95 21.433 13.1186 21.299 13.2557C21.165 13.3929 20.9948 13.4615 20.7884 13.4615C20.4282 13.4615 20.1233 13.5814 19.874 13.8211C19.6246 14.0609 19.5 14.3577 19.5 14.7115V16.7692C19.5 17.5256 19.2307 18.1699 18.6923 18.7019C18.1538 19.234 17.5032 19.5 16.7404 19.5H15.0192ZM7.2596 19.5C6.49678 19.5 5.84615 19.234 5.3077 18.7019C4.76923 18.1699 4.5 17.5256 4.5 16.7692V14.7115C4.5 14.3577 4.37533 14.0609 4.12598 13.8211C3.87661 13.5814 3.57179 13.4615 3.21153 13.4615C3.01154 13.4615 2.84296 13.3929 2.70578 13.2557C2.56859 13.1186 2.5 12.95 2.5 12.75V11.25C2.5 11.05 2.56859 10.8814 2.70578 10.7443C2.84296 10.6071 3.01154 10.5385 3.21153 10.5385C3.57179 10.5385 3.87661 10.4186 4.12598 10.1789C4.37533 9.93913 4.5 9.64233 4.5 9.28848V7.23078C4.5 6.47438 4.76923 5.83016 5.3077 5.29811C5.84615 4.76606 6.49678 4.50003 7.2596 4.50003H8.99035C9.20317 4.50003 9.38137 4.57183 9.52495 4.71543C9.66855 4.85901 9.74035 5.03721 9.74035 5.25003C9.74035 5.46285 9.66855 5.64105 9.52495 5.78463C9.38137 5.92821 9.20317 6.00001 8.99035 6.00001H7.2596C6.91217 6.00001 6.61537 6.11828 6.3692 6.35483C6.12305 6.59136 5.99998 6.88335 5.99998 7.23078V9.28848C5.99998 9.88335 5.82305 10.4167 5.4692 10.8885C5.11537 11.3603 4.65448 11.6885 4.08653 11.8731V12.1269C4.65448 12.3115 5.11537 12.6397 5.4692 13.1115C5.82305 13.5833 5.99998 14.1167 5.99998 14.7115V16.7692C5.99998 17.1167 6.12305 17.4086 6.3692 17.6452C6.61537 17.8817 6.91217 18 7.2596 18H8.99035C9.20317 18 9.38137 18.0718 9.52495 18.2154C9.66855 18.359 9.74035 18.5372 9.74035 18.75C9.74035 18.9628 9.66855 19.141 9.52495 19.2846C9.38137 19.4282 9.20317 19.5 8.99035 19.5H7.2596Z" fill="currentColor"></path>
+                            </g>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:data-api-docs" href="http://data-apis-v2.nocodb.com/" target="_blank" class="nav-dropdown-link w-dropdown-link">Data APIs <span class="greyed-out-text">(v2)</span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_563_80362" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                              <rect width="24" height="24" fill="currentColor"></rect>
+                            </mask>
+                            <g mask="url(#mask0_563_80362)">
+                              <path d="M14.2885 20.6153C14.6103 20.6153 14.883 20.5035 15.1067 20.2798C15.3305 20.056 15.4423 19.7833 15.4423 19.4615C15.4423 19.1397 15.3305 18.8669 15.1067 18.6432C14.883 18.4195 14.6103 18.3076 14.2885 18.3076C13.9667 18.3076 13.6939 18.4195 13.4702 18.6432C13.2465 18.8669 13.1346 19.1397 13.1346 19.4615C13.1346 19.7833 13.2465 20.056 13.4702 20.2798C13.6939 20.5035 13.9667 20.6153 14.2885 20.6153ZM20 11.5C20.3218 11.5 20.5945 11.3881 20.8183 11.1644C21.042 10.9407 21.1538 10.668 21.1538 10.3462C21.1538 10.0244 21.042 9.75159 20.8183 9.52788C20.5945 9.30416 20.3218 9.1923 20 9.1923C19.6782 9.1923 19.4054 9.30416 19.1817 9.52788C18.958 9.75159 18.8461 10.0244 18.8461 10.3462C18.8461 10.668 18.958 10.9407 19.1817 11.1644C19.4054 11.3881 19.6782 11.5 20 11.5ZM10.6346 10.75C10.8474 10.75 11.0256 10.6782 11.1692 10.5346C11.3128 10.391 11.3846 10.2128 11.3846 9.99998C11.3846 9.78716 11.3128 9.60896 11.1692 9.46538C11.0256 9.32179 10.8474 9.25 10.6346 9.25H6.99997C6.78716 9.25 6.60896 9.32179 6.46537 9.46538C6.32179 9.60896 6.25 9.78716 6.25 9.99998C6.25 10.2128 6.32179 10.391 6.46537 10.5346C6.60896 10.6782 6.78716 10.75 6.99997 10.75H10.6346ZM10.6346 14.75C10.8474 14.75 11.0256 14.6782 11.1692 14.5346C11.3128 14.391 11.3846 14.2128 11.3846 14C11.3846 13.7872 11.3128 13.609 11.1692 13.4654C11.0256 13.3218 10.8474 13.25 10.6346 13.25H6.99997C6.78716 13.25 6.60896 13.3218 6.46537 13.4654C6.32179 13.609 6.25 13.7872 6.25 14C6.25 14.2128 6.32179 14.391 6.46537 14.5346C6.60896 14.6782 6.78716 14.75 6.99997 14.75H10.6346ZM4.3077 19.5C3.80257 19.5 3.375 19.325 3.025 18.975C2.675 18.625 2.5 18.1974 2.5 17.6923V6.3077C2.5 5.80257 2.675 5.375 3.025 5.025C3.375 4.675 3.80257 4.5 4.3077 4.5H19.6923C20.1974 4.5 20.625 4.675 20.975 5.025C21.325 5.375 21.5 5.80257 21.5 6.3077H20C20 6.23077 19.9679 6.16024 19.9038 6.09613C19.8397 6.03203 19.7692 5.99998 19.6923 5.99998H4.3077C4.23077 5.99998 4.16024 6.03203 4.09612 6.09613C4.03202 6.16024 3.99998 6.23077 3.99998 6.3077V17.6923C3.99998 17.7692 4.03202 17.8397 4.09612 17.9038C4.16024 17.9679 4.23077 18 4.3077 18H9.63462V19.5H4.3077ZM14.2885 22.1153C13.5513 22.1153 12.9247 21.8573 12.4087 21.3413C11.8926 20.8252 11.6346 20.1986 11.6346 19.4615C11.6346 18.8563 11.8141 18.3211 12.1731 17.8557C12.5321 17.3903 12.9872 17.0801 13.5385 16.925V15.0577C13.5385 14.8 13.6247 14.5849 13.7971 14.4125C13.9696 14.24 14.1846 14.1538 14.4423 14.1538H19.25V12.8827C18.6987 12.7275 18.2436 12.4173 17.8846 11.9519C17.5256 11.4865 17.3462 10.9513 17.3462 10.3462C17.3462 9.60898 17.6042 8.98239 18.1202 8.46638C18.6362 7.95034 19.2628 7.69233 20 7.69233C20.7371 7.69233 21.3637 7.95034 21.8798 8.46638C22.3958 8.98239 22.6538 9.60898 22.6538 10.3462C22.6538 10.9513 22.4743 11.4865 22.1153 11.9519C21.7564 12.4173 21.3012 12.7275 20.75 12.8827V14.75C20.75 15.0077 20.6637 15.2227 20.4913 15.3952C20.3189 15.5676 20.1038 15.6538 19.8461 15.6538H15.0385V16.925C15.5897 17.0801 16.0448 17.3903 16.4038 17.8557C16.7628 18.3211 16.9423 18.8563 16.9423 19.4615C16.9423 20.1986 16.6843 20.8252 16.1683 21.3413C15.6522 21.8573 15.0256 22.1153 14.2885 22.1153Z" fill="currentColor"></path>
+                            </g>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:meta-api-docs" href="http://meta-apis-v2.nocodb.com/" target="_blank" class="nav-dropdown-link w-dropdown-link">Meta APIs <span class="greyed-out-text">(v2)</span></a>
+                      </div>
+                      <div data-event="a:navbar:meta-api" class="dropdown">
+                        <div class="dropdown-divider"></div>
+                      </div>
+                      <div class="dropdown-header">COMMUNITY</div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="4" fill="url(#paint0_linear_1871_109536)"></rect>
+                            <path d="M8.3335 15.1562L12.0047 18.8297V24.6454H8.3335V15.1562ZM23.7533 7.34649V24.0464C23.7533 24.3894 23.4738 24.6665 23.1309 24.6665C22.9665 24.6665 22.8092 24.6031 22.6917 24.4857L8.3335 11.5367V7.8726C8.3335 7.52968 8.61066 7.25253 8.95359 7.25253H8.98648C9.1509 7.25253 9.3106 7.31831 9.42569 7.4334L20.0798 16.6783V7.34649H23.7533Z" fill="white"></path>
+                            <defs>
+                              <lineargradient id="paint0_linear_1871_109536" x1="15.9976" y1="42.7731" x2="15.9976" y2="-8.9707" gradientunits="userSpaceOnUse">
+                                <stop stop-color="#4351E8"></stop>
+                                <stop offset="1" stop-color="#2A1EA5"></stop>
+                              </lineargradient>
+                            </defs>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:nocodb-forum" href="https://community.nocodb.com/" target="_blank" class="nav-dropdown-link w-dropdown-link">NocoDB Forum<span class="greyed-out-text"></span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_838_31704)">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M24.0005 1C18.303 1.00296 12.7923 3.02092 8.45374 6.69305C4.11521 10.3652 1.23181 15.452 0.319089 21.044C-0.593628 26.636 0.523853 32.3684 3.47174 37.2164C6.41963 42.0643 11.0057 45.7115 16.4099 47.5059C17.6021 47.7272 18.0512 46.9883 18.0512 46.36C18.0512 45.7317 18.0273 43.91 18.0194 41.9184C11.3428 43.3608 9.93197 39.101 9.93197 39.101C8.84305 36.3349 7.26927 35.6078 7.26927 35.6078C5.09143 34.1299 7.43223 34.1576 7.43223 34.1576C9.84455 34.3275 11.1123 36.6194 11.1123 36.6194C13.2504 40.2667 16.7278 39.2116 18.0949 38.5952C18.3095 37.0501 18.9335 35.999 19.621 35.4023C14.2877 34.8017 8.68408 32.7548 8.68408 23.6108C8.65102 21.2394 9.53605 18.9461 11.156 17.2054C10.9096 16.6047 10.087 14.1785 11.3905 10.8829C11.3905 10.8829 13.4054 10.2427 17.9916 13.3289C21.9253 12.2592 26.0757 12.2592 30.0095 13.3289C34.5917 10.2427 36.6026 10.8829 36.6026 10.8829C37.9101 14.1706 37.0875 16.5968 36.8411 17.2054C38.4662 18.9464 39.353 21.2437 39.317 23.6187C39.317 32.7824 33.7015 34.8017 28.3602 35.3905C29.2186 36.1334 29.9856 37.5836 29.9856 39.8122C29.9856 43.0051 29.9578 45.5736 29.9578 46.36C29.9578 46.9962 30.391 47.7391 31.6071 47.5059C37.0119 45.7113 41.5984 42.0634 44.5462 37.2147C47.4941 32.3659 48.611 26.6326 47.6972 21.0401C46.7835 15.4476 43.8986 10.3607 39.5587 6.68921C35.2187 3.01771 29.7067 1.00108 24.0085 1H24.0005Z" fill="#191717"></path>
+                              <path d="M16.0557 39.9505C16.0557 40.1442 15.8331 40.3101 15.547 40.3141C15.2608 40.318 15.0264 40.16 15.0264 39.9663C15.0264 39.7727 15.2489 39.6067 15.535 39.6028C15.8212 39.5988 16.0557 39.753 16.0557 39.9505Z" fill="#191717"></path>
+                              <path d="M17.8838 39.6463C17.9196 39.8399 17.7208 40.0414 17.4347 40.0888C17.1486 40.1363 16.8982 40.0217 16.8624 39.832C16.8267 39.6423 17.0333 39.4368 17.3115 39.3855C17.5897 39.3341 17.848 39.4526 17.8838 39.6463Z" fill="#191717"></path>
+                              <path d="M14.0923 39.8162C14.0327 40.0019 13.7625 40.0849 13.4922 40.0059C13.222 39.9268 13.0432 39.7055 13.0948 39.5159C13.1465 39.3262 13.4207 39.2393 13.6949 39.3262C13.9691 39.4131 14.144 39.6226 14.0923 39.8162Z" fill="#191717"></path>
+                              <path d="M12.2921 39.0417C12.161 39.1879 11.8947 39.1484 11.6761 38.9508C11.4575 38.7532 11.4059 38.4845 11.537 38.3423C11.6682 38.2 11.9344 38.2395 12.161 38.4331C12.3875 38.6268 12.4312 38.8994 12.2921 39.0417Z" fill="#191717"></path>
+                              <path d="M11.0085 37.714C10.8614 37.8167 10.6111 37.714 10.472 37.5085C10.4335 37.4716 10.4029 37.4274 10.382 37.3785C10.3611 37.3297 10.3503 37.2771 10.3503 37.224C10.3503 37.1709 10.3611 37.1183 10.382 37.0694C10.4029 37.0205 10.4335 36.9763 10.472 36.9395C10.619 36.8407 10.8694 36.9395 11.0085 37.141C11.1476 37.3425 11.1516 37.6112 11.0085 37.714Z" fill="#191717"></path>
+                              <path d="M10.0626 36.3428C9.98028 36.384 9.88612 36.3955 9.79622 36.3753C9.70632 36.3551 9.62629 36.3045 9.56979 36.2321C9.41479 36.0662 9.38298 35.837 9.50221 35.7342C9.62143 35.6315 9.83606 35.6789 9.99105 35.8449C10.146 36.0108 10.1818 36.24 10.0626 36.3428Z" fill="#191717"></path>
+                              <path d="M9.08887 35.264C9.03721 35.3826 8.84645 35.4181 8.69146 35.3351C8.53646 35.2522 8.42122 35.098 8.47686 34.9755C8.5325 34.853 8.71928 34.8214 8.87428 34.9044C9.02927 34.9874 9.14848 35.1455 9.08887 35.264Z" fill="#191717"></path>
+                            </g>
+                            <defs>
+                              <clippath id="clip0_838_31704">
+                                <rect width="48" height="48" fill="white"></rect>
+                              </clippath>
+                            </defs>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:github" href="https://github.com/nocodb/nocodb" target="_blank" class="nav-dropdown-link w-dropdown-link">Github<span class="greyed-out-text"></span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_838_31688)">
+                              <path d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#FF4500"></path>
+                              <path d="M40 24C40 22.0632 38.4281 20.4912 36.4912 20.4912C35.5368 20.4912 34.6947 20.8561 34.0772 21.4737C31.6912 19.7614 28.3789 18.6386 24.7298 18.4982L26.3298 11.0035L31.5228 12.0982C31.5789 13.4175 32.6737 14.4842 34.021 14.4842C35.3965 14.4842 36.5193 13.3614 36.5193 11.986C36.5193 10.6105 35.3965 9.48772 34.021 9.48772C33.0386 9.48772 32.1965 10.0491 31.8035 10.8912L25.993 9.65614C25.8245 9.62807 25.6561 9.65614 25.5158 9.74035C25.3754 9.82456 25.2912 9.96491 25.2351 10.1333L23.4666 18.4982C19.7333 18.6105 16.393 19.7053 13.9789 21.4737C13.3614 20.8842 12.4912 20.4912 11.5649 20.4912C9.62805 20.4912 8.05612 22.0632 8.05612 24C8.05612 25.4316 8.89823 26.6386 10.1333 27.2C10.0772 27.5368 10.0491 27.9018 10.0491 28.2667C10.0491 33.6561 16.3088 38.007 24.0561 38.007C31.8035 38.007 38.0631 33.6561 38.0631 28.2667C38.0631 27.9018 38.0351 27.5649 37.9789 27.2281C39.1298 26.6667 40 25.4316 40 24ZM16 26.4982C16 25.1228 17.1228 24 18.4982 24C19.8737 24 20.9965 25.1228 20.9965 26.4982C20.9965 27.8737 19.8737 28.9965 18.4982 28.9965C17.1228 28.9965 16 27.8737 16 26.4982ZM29.9509 33.0947C28.2386 34.807 24.9824 34.9193 24.0281 34.9193C23.0737 34.9193 19.7895 34.7789 18.1052 33.0947C17.8526 32.8421 17.8526 32.4211 18.1052 32.1684C18.3579 31.9158 18.7789 31.9158 19.0316 32.1684C20.0982 33.2351 22.4 33.6281 24.0561 33.6281C25.7123 33.6281 27.9859 33.2351 29.0807 32.1684C29.3333 31.9158 29.7544 31.9158 30.007 32.1684C30.2035 32.4491 30.2035 32.8421 29.9509 33.0947ZM29.5017 28.9965C28.1263 28.9965 27.0035 27.8737 27.0035 26.4982C27.0035 25.1228 28.1263 24 29.5017 24C30.8772 24 32 25.1228 32 26.4982C32 27.8737 30.8772 28.9965 29.5017 28.9965Z" fill="white"></path>
+                            </g>
+                            <defs>
+                              <clippath id="clip0_838_31688">
+                                <rect width="48" height="48" fill="white"></rect>
+                              </clippath>
+                            </defs>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:reddit" href="https://www.reddit.com/r/NocoDB/" target="_blank" class="nav-dropdown-link w-dropdown-link">Reddit<span class="greyed-out-text"></span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40.634 8.31118C37.5747 6.90741 34.294 5.87318 30.8638 5.28084C30.8013 5.2694 30.7389 5.29797 30.7067 5.35511C30.2848 6.10554 29.8175 7.08454 29.4902 7.85403C25.8008 7.30169 22.1304 7.30169 18.5166 7.85403C18.1893 7.06744 17.705 6.10554 17.2811 5.35511C17.249 5.29988 17.1866 5.27131 17.1241 5.28084C13.6958 5.87129 10.4151 6.90552 7.35387 8.31118C7.32737 8.3226 7.30465 8.34167 7.28958 8.36641C1.06678 17.6631 -0.6379 26.7313 0.19836 35.6871C0.202144 35.7309 0.22674 35.7729 0.260796 35.7995C4.36642 38.8146 8.34341 40.645 12.2466 41.8582C12.309 41.8773 12.3752 41.8545 12.415 41.803C13.3383 40.5422 14.1613 39.2127 14.867 37.8146C14.9086 37.7327 14.8688 37.6356 14.7837 37.6032C13.4783 37.108 12.2352 36.5042 11.0395 35.8186C10.9449 35.7633 10.9373 35.628 11.0243 35.5633C11.2759 35.3747 11.5276 35.1785 11.7679 34.9805C11.8114 34.9443 11.872 34.9366 11.9231 34.9595C19.7786 38.546 28.2831 38.546 36.0459 34.9595C36.097 34.9348 36.1576 34.9424 36.203 34.9786C36.4433 35.1766 36.6949 35.3747 36.9484 35.5633C37.0354 35.628 37.0298 35.7633 36.9352 35.8186C35.7394 36.5175 34.4964 37.108 33.189 37.6013C33.1039 37.6337 33.0661 37.7327 33.1077 37.8146C33.8285 39.2107 34.6515 40.5402 35.5578 41.8011C35.5956 41.8545 35.6637 41.8773 35.7262 41.8582C39.6483 40.645 43.6252 38.8146 47.7309 35.7995C47.7668 35.7729 47.7895 35.7328 47.7933 35.689C48.7942 25.3352 46.117 16.3413 40.6964 8.3683C40.6832 8.34167 40.6605 8.3226 40.634 8.31118ZM16.04 30.234C13.675 30.234 11.7263 28.0627 11.7263 25.3961C11.7263 22.7296 13.6372 20.5583 16.04 20.5583C18.4617 20.5583 20.3916 22.7486 20.3538 25.3961C20.3538 28.0627 18.4428 30.234 16.04 30.234ZM31.9895 30.234C29.6245 30.234 27.6758 28.0627 27.6758 25.3961C27.6758 22.7296 29.5867 20.5583 31.9895 20.5583C34.4113 20.5583 36.3411 22.7486 36.3033 25.3961C36.3033 28.0627 34.4113 30.234 31.9895 30.234Z" fill="#5865F2"></path>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:discord" href="https://discord.gg/c7GEYrvFtT" target="_blank" class="nav-dropdown-link w-dropdown-link">Discord<span class="greyed-out-text"></span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.117029 2L18.6493 26.7794L0 46.9261H4.19721L20.5246 29.2874L33.7167 46.9261H48L28.425 20.7529L45.7836 2H41.5864L26.5497 18.2449L14.4003 2H0.117029ZM6.28933 5.09167H12.8511L41.8267 43.8339H35.265L6.28933 5.09167Z" fill="black"></path>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:twitter" href="https://twitter.com/nocodb?lang=en" target="_blank" class="nav-dropdown-link w-dropdown-link">Twitter<span class="greyed-out-text"></span></a>
+                      </div>
+                      <div class="dropdown">
+                        <div class="dropdown-icon small w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_838_31725)">
+                              <path d="M47.044 12.3709C46.7726 11.3497 46.2378 10.4178 45.493 9.66822C44.7483 8.91869 43.8197 8.37791 42.8003 8.1C39.0476 7.09091 24.0476 7.09091 24.0476 7.09091C24.0476 7.09091 9.04761 7.09091 5.29488 8.1C4.27547 8.37791 3.34693 8.91869 2.60218 9.66822C1.85744 10.4178 1.32262 11.3497 1.05124 12.3709C0.0476075 16.14 0.0476074 24 0.0476074 24C0.0476074 24 0.0476075 31.86 1.05124 35.6291C1.32262 36.6503 1.85744 37.5822 2.60218 38.3318C3.34693 39.0813 4.27547 39.6221 5.29488 39.9C9.04761 40.9091 24.0476 40.9091 24.0476 40.9091C24.0476 40.9091 39.0476 40.9091 42.8003 39.9C43.8197 39.6221 44.7483 39.0813 45.493 38.3318C46.2378 37.5822 46.7726 36.6503 47.044 35.6291C48.0476 31.86 48.0476 24 48.0476 24C48.0476 24 48.0476 16.14 47.044 12.3709Z" fill="#FF0302"></path>
+                              <path d="M19.1385 31.1373V16.8628L31.684 24.0001L19.1385 31.1373Z" fill="#FEFEFE"></path>
+                            </g>
+                            <defs>
+                              <clippath id="clip0_838_31725">
+                                <rect width="48" height="48" fill="white"></rect>
+                              </clippath>
+                            </defs>
+                          </svg></div>
+                        <a data-event="a:nav-bar:resources:youtube" href="https://www.youtube.com/channel/UCEnT8ZJfu2okT9D76wABCEA/videos?view=0" target="_blank" class="nav-dropdown-link w-dropdown-link">YouTube<span class="greyed-out-text"></span></a>
+                      </div>
+                    </nav>
+                  </div>
+                </li>
+                <li data-event="site/a:nav-bar:docs" class="navbar-list">
+                  <a href="http://docs.nocodb.com" target="_blank" class="nav-link">Docs</a>
+                </li>
+                <li data-event="site/a:nav-bar:pricing" class="navbar-list">
+                  <a href="pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="mobile-margin-top-10"></li>
+              </ul>
+              <a href="https://app.nocodb.com/#/signin" target="_blank" class="link-block-3 w-inline-block">
+                <div class="button-primary-nav-menu">
+                  <h1 class="button-text">Start for Free</h1>
+                </div>
+              </a>
+            </nav>
+            <div class="nav-button-wrapper">
+              <a data-event="site/a:nav-bar:start-for-free" href="https://app.nocodb.com/#/signin" target="_blank" class="button-primary-main airtable w-button">Start for Free</a>
+            </div>
+            <div data-event="a:navbar:expand-button" class="menu-button w-nav-button">
+              <div class="navbar-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 12H14" stroke="#374151" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M2 8H14" stroke="#374151" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M2 4H14" stroke="#374151" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="hero-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="hero-text-wrapper">
+          <div class="w-layout-hflex h-flex-8gap padding-4 orange">
+            <a href="https://app.nocodb.com/#/signin" target="_blank" class="link-block-4 w-inline-block">
+              <div class="text-14px-bold">NocoDB Cloud is available for FREE in technical preview.<br></div>
+            </a>
+            <a data-event="a:hero-section:try-now" href="#" class="button-secondary banner-size w-button">Try now</a>
+          </div>
+          <div class="default-container">
+            <h1 class="hero-heading">Build Databases As Spreadsheets :<br>No-Coding Required<br></h1>
+            <h1 class="text-20px-semi-bold">NocoDB allows building no-code database solutions with ease of spreadsheets. <br>Bring your own database or choose ours! Millions of rows? Not a problem. <br>Your Data. Your rules. You are in control.<strong><br></strong></h1>
+          </div>
+          <div class="mobile-container">
+            <h1 class="hero-heading-mobile"> Databases as Spreadsheets :<br> No-Coding Required<br></h1>
+            <h1 class="text-20px-semi-bold-copy">Bring your own database or choose ours! Millions of rows ? Not a problem.<strong><br></strong></h1>
+          </div>
+          <div class="w-layout-hflex h-flex-12gap align-middle">
+            <a data-event="site/a:hero-section:docs" href="http://docs.nocodb.com" target="_blank" class="button-secondary hero-button w-button">Documentation</a>
+            <a data-event="site/a:navbar:pricinga:hero-section:start for free" href="https://app.nocodb.com/#/signin" target="_blank" class="button-primary hero w-button">Get Started</a>
+          </div>
+        </div>
+        <div data-w-id="463e96a9-9f53-8f41-28a1-d2d6bb7d4a28" class="image-focus-block">
+          <div id="Hero-image" class="hero-image"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image.webp" loading="eager" sizes="(max-width: 479px) 89vw, (max-width: 767px) 92vw, 94vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Hero-Image.webp 3455w" alt="NocoDB Project Screenshot" class="image-15"></div>
+        </div>
+      </div>
+    </section>
+    <section class="companies-section">
+      <h1 class="companies-h1">Trusted by 6,500+ Organisations </h1>
+      <div class="w-layout-blockcontainer companies-container w-container">
+        <div class="marquee">
+          <div class="w-embed">
+            <style>
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+.scroll {
+  animation: scroll 60s linear infinite;
+}
+.reverse {
+  animation-direction: reverse;
+}
+</style>
+          </div>
+          <div class="marquee-content scroll reverse">
+            <div class="w-layout-hflex h-flex-companies"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Accenture-logo.svg" loading="eager" alt="Accenture" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Western-logo.svg" loading="eager" alt="Western Digita" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Hyundai-logo.svg" loading="eager" alt="Hyundai" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Walmart-logo.svg" loading="eager" alt="Walmart" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Finn-logo.svg" loading="eager" alt="Finn" class="company-logo-w-60px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/pwc-logo.svg" loading="eager" alt="pwc" class="company-logo-w-60px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Bosch-logo.svg" loading="eager" alt="Bosch" class="company-logo-w-96px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/American-Express.svg" loading="eager" alt="American Express" class="company-logo-w-96px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Lyrid-logo.svg" loading="eager" alt="Lyrid" class="company-logo-w-96px"></div>
+          </div>
+          <div class="marquee-content scroll reverse">
+            <div class="w-layout-hflex h-flex-companies"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Accenture-logo.svg" loading="eager" alt="Accenture" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Western-logo.svg" loading="eager" alt="Western Digita" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Hyundai-logo.svg" loading="eager" alt="Hyundai" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Walmart-logo.svg" loading="eager" alt="Walmart" class="company-logo-w-150px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Finn-logo.svg" loading="eager" alt="Finn" class="company-logo-w-60px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/pwc-logo.svg" loading="eager" alt="pwc" class="company-logo-w-60px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Bosch-logo.svg" loading="eager" alt="Bosch" class="company-logo-w-96px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Accenture-logo.svg" loading="eager" alt="American Express" class="company-logo-w-96px"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Lyrid-logo.svg" loading="eager" alt="Lyrid" class="company-logo-w-96px"></div>
+          </div>
+        </div>
+      </div>
+      <div id="How-it-works" class="scroll-offset"></div>
+    </section>
+    <section class="dev-features-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1">How It Works ? A Quick Overview</h1>
+          <h2 class="section-h2">NocoDB provides an intuitive spreadsheet interface for creating online databases, either from scratch or by connecting to any Postgres/MySQL. <br>Access your data through interactive UIs like Kanban, Form, and Gallery, or via API and SQL.<br></h2>
+        </div>
+        <div class="tab-block-data-viz">
+          <div data-event="a:data-viz-section:data-viz" class="data-viz-div"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz.png" loading="eager" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/new-data-viz.png 2958w" alt="Product map" sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 93vw, 99vw" class="data-viz-image"></div>
+        </div>
+      </div>
+    </section>
+    <section class="views-section-copy">
+      <div class="w-layout-blockcontainer container-standard-mobile w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1">Versatile views for your data</h1>
+          <h2 class="section-h2 mobile-view">Adapt your data to a view that suits you. We recognise not everyone is a tech guru so we provide a pre-crafted views for your data.</h2>
+        </div>
+        <div data-delay="7000" data-animation="slide" class="slider w-slider" data-autoplay="true" data-easing="ease-in-out" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="4" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap blue-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 14H14V21H21V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M10 14H3V21H10V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M21 3H14V10H21V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M10 3H3V10H10V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Grid View</h3>
+                </div>
+                <h4 class="heading-5">A Versatile Tool for Effortless Data Organization, Sorting, and Filtering</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View.webp 3840w" alt="Project&gt;data&gt;grid view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View.webp" loading="eager" class="views-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap orange-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M7.5 7.5L7.5 15" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M12 7.5L12 16.5" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M16.5 7.5L16.5 12" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Kanban View</h3>
+                </div>
+                <h4 class="heading-5">Visualise, Organise, and Streamline Your Workflows with Ease</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban.webp 3840w" alt="Project&gt;data&gt;kanban view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban.webp" loading="eager" class="views-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap pink-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M21 15L16 10L5 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M8.5 10C9.32843 10 10 9.32843 10 8.5C10 7.67157 9.32843 7 8.5 7C7.67157 7 7 7.67157 7 8.5C7 9.32843 7.67157 10 8.5 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Gallery View</h3>
+                </div>
+                <h4 class="heading-5">Transform Your Data into Engaging Visual Stories and Presentations</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery.webp 3840w" alt="Project&gt;data&gt;gallery view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery.webp" loading="eager" class="views-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap purple-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H8" stroke="#7D26CD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M15 2H9C8.44772 2 8 2.44772 8 3V5C8 5.55228 8.44772 6 9 6H15C15.5523 6 16 5.55228 16 5V3C16 2.44772 15.5523 2 15 2Z" stroke="#7D26CD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Form View</h3>
+                </div>
+                <h4 class="heading-5">Simplify Data Entry and Updates, Making Information Management a Breeze</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form.webp 3840w" alt="Project&gt;data&gt;form view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Form.webp" loading="eager" class="views-image"></div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left"></div>
+          <div class="right-arrow w-slider-arrow-right"></div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+        <div class="tab-block-views">
+          <div data-current="Tab 1" data-easing="ease-in" data-duration-in="500" data-duration-out="100" class="tabs-views w-tabs">
+            <div class="tabs-menu-views w-tab-menu">
+              <a data-w-tab="Tab 1" data-event="site/a:views-section:grid" class="tab-button-view w-inline-block w-tab-link w--current">
+                <div class="tab-views-loader"></div>
+                <div class="w-layout-hflex h-flex-8gap blue-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 14H14V21H21V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M10 14H3V21H10V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M21 3H14V10H21V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M10 3H3V10H10V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Grid View</h3>
+                </div>
+                <h4 class="heading-5">A Versatile Tool for Effortless Data Organization, Sorting, and Filtering</h4>
+              </a>
+              <a data-w-tab="Tab 2" data-event="site/a:views-section:kanban" class="tab-button-view w-inline-block w-tab-link">
+                <div class="tab-views-loader"></div>
+                <div class="w-layout-hflex h-flex-8gap orange-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M7.5 7.5L7.5 15" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M12 7.5L12 16.5" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M16.5 7.5L16.5 12" stroke="#FA8231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Kanban View</h3>
+                </div>
+                <h4 class="heading-5">Visualise, Organise, and Streamline Your Workflows with Ease</h4>
+              </a>
+              <a data-w-tab="Tab 3" data-event="site/a:views-section:gallery" class="tab-button-view w-inline-block w-tab-link">
+                <div class="tab-views-loader"></div>
+                <div class="w-layout-hflex h-flex-8gap pink-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M21 15L16 10L5 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M8.5 10C9.32843 10 10 9.32843 10 8.5C10 7.67157 9.32843 7 8.5 7C7.67157 7 7 7.67157 7 8.5C7 9.32843 7.67157 10 8.5 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Gallery View</h3>
+                </div>
+                <h4 class="heading-5">Transform Your Data into Engaging Visual Stories and Presentations</h4>
+              </a>
+              <a data-w-tab="Tab 4" data-event="site/a:views-section:form" class="tab-button-view w-inline-block w-tab-link">
+                <div class="tab-views-loader"></div>
+                <div class="w-layout-hflex h-flex-8gap purple-text">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 4H18C18.5304 4 19.0391 4.21071 19.4142 4.58579C19.7893 4.96086 20 5.46957 20 6V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H8" stroke="#7D26CD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M15 2H9C8.44772 2 8 2.44772 8 3V5C8 5.55228 8.44772 6 9 6H15C15.5523 6 16 5.55228 16 5V3C16 2.44772 15.5523 2 15 2Z" stroke="#7D26CD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <h3 class="heading-4">Form View</h3>
+                </div>
+                <h4 class="heading-5">Simplify Data Entry and Updates, Making Information Management a Breeze</h4>
+              </a>
+            </div>
+            <div class="tabs-content---views w-tab-content">
+              <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane w--tab-active"><img sizes="(max-width: 991px) 100vw, 1335.109375px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View.webp 3840w" alt="Project&gt;data&gt;grid view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Grid-View.webp" loading="eager" class="views-image"></div>
+              <div data-w-tab="Tab 2" class="tab-pane-tab-2 w-tab-pane"><img sizes="(max-width: 991px) 100vw, 1335.109375px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban.webp 3840w" alt="Project&gt;data&gt;kanban view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Kanban.webp" loading="eager" class="views-image"></div>
+              <div data-w-tab="Tab 3" class="tab-pane-tab-3 w-tab-pane"><img sizes="(max-width: 991px) 100vw, 1335.109375px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery.webp 3840w" alt="Project&gt;data&gt;gallery view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Gallery.webp" loading="eager" class="views-image"></div>
+              <div data-w-tab="Tab 4" class="tab-pane-tab-4 w-tab-pane"><img sizes="(max-width: 991px) 100vw, 1335.109375px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Form.webp 3840w" alt="Project&gt;data&gt;form view" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Form.webp" loading="eager" class="views-image"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="usecases-section">
+      <div class="w-layout-blockcontainer container-standard-mobile w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1">Endless Usecases</h1>
+          <h2 class="section-h2">NocoDB caters to every department in an organization. Its versatility addresses a multitude of use cases seamlessly.</h2>
+        </div>
+        <div data-delay="7000" data-animation="slide" class="slider w-slider" data-autoplay="true" data-easing="ease-in-out" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="4" data-duration="500" data-infinite="true">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_811" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_811)">
+                        <path d="M12.0967 21.3867C11.8133 21.3867 11.5758 21.2909 11.3842 21.0992C11.1925 20.9076 11.0967 20.6701 11.0967 20.3867C11.0967 20.1034 11.1925 19.8659 11.3842 19.6742C11.5758 19.4826 11.8133 19.3867 12.0967 19.3867H19.0967V12.2867C19.0967 10.3367 18.4175 8.68255 17.0592 7.32422C15.7008 5.96589 14.0467 5.28672 12.0967 5.28672C10.1467 5.28672 8.49251 5.96589 7.13418 7.32422C5.77585 8.68255 5.09668 10.3367 5.09668 12.2867V17.3867C5.09668 17.6701 5.00085 17.9076 4.80918 18.0992C4.61751 18.2909 4.38001 18.3867 4.09668 18.3867C3.54668 18.3867 3.07585 18.1909 2.68418 17.7992C2.29251 17.4076 2.09668 16.9367 2.09668 16.3867V14.3867C2.09668 14.0367 2.18418 13.7076 2.35918 13.3992C2.53418 13.0909 2.78001 12.8451 3.09668 12.6617L3.17168 11.3367C3.30501 10.2034 3.63418 9.15339 4.15918 8.18672C4.68418 7.22005 5.34251 6.37839 6.13418 5.66172C6.92585 4.94505 7.83418 4.38672 8.85918 3.98672C9.88418 3.58672 10.9633 3.38672 12.0967 3.38672C13.23 3.38672 14.305 3.58672 15.3217 3.98672C16.3383 4.38672 17.2467 4.94089 18.0467 5.64922C18.8467 6.35755 19.505 7.19505 20.0217 8.16172C20.5383 9.12839 20.8717 10.1784 21.0217 11.3117L21.0967 12.6117C21.4133 12.7617 21.6592 12.9867 21.8342 13.2867C22.0092 13.5867 22.0967 13.9034 22.0967 14.2367V16.5367C22.0967 16.8701 22.0092 17.1867 21.8342 17.4867C21.6592 17.7867 21.4133 18.0117 21.0967 18.1617V19.3867C21.0967 19.9367 20.9008 20.4076 20.5092 20.7992C20.1175 21.1909 19.6467 21.3867 19.0967 21.3867H12.0967ZM9.09668 14.3867C8.81335 14.3867 8.57585 14.2909 8.38418 14.0992C8.19251 13.9076 8.09668 13.6701 8.09668 13.3867C8.09668 13.1034 8.19251 12.8659 8.38418 12.6742C8.57585 12.4826 8.81335 12.3867 9.09668 12.3867C9.38001 12.3867 9.61751 12.4826 9.80918 12.6742C10.0008 12.8659 10.0967 13.1034 10.0967 13.3867C10.0967 13.6701 10.0008 13.9076 9.80918 14.0992C9.61751 14.2909 9.38001 14.3867 9.09668 14.3867ZM15.0967 14.3867C14.8133 14.3867 14.5758 14.2909 14.3842 14.0992C14.1925 13.9076 14.0967 13.6701 14.0967 13.3867C14.0967 13.1034 14.1925 12.8659 14.3842 12.6742C14.5758 12.4826 14.8133 12.3867 15.0967 12.3867C15.38 12.3867 15.6175 12.4826 15.8092 12.6742C16.0008 12.8659 16.0967 13.1034 16.0967 13.3867C16.0967 13.6701 16.0008 13.9076 15.8092 14.0992C15.6175 14.2909 15.38 14.3867 15.0967 14.3867ZM6.12168 12.8367C6.00501 11.0701 6.53835 9.55339 7.72168 8.28672C8.90501 7.02005 10.38 6.38672 12.1467 6.38672C13.63 6.38672 14.9342 6.85755 16.0592 7.79922C17.1842 8.74089 17.8633 9.94505 18.0967 11.4117C16.58 11.3951 15.1842 10.9867 13.9092 10.1867C12.6342 9.38672 11.655 8.30339 10.9717 6.93672C10.705 8.27005 10.1425 9.45755 9.28418 10.4992C8.42585 11.5409 7.37168 12.3201 6.12168 12.8367Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-new">CRM</h3>
+                </div>
+                <h4 class="heading-5">Centralise customer interactions to enhance relationships</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1.webp 2880w" alt="CRM Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1.webp" loading="eager" class="usecase-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_817" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_817)">
+                        <path d="M18.0967 19.8121L17.1967 20.7121C17.0133 20.8954 16.7842 20.9871 16.5092 20.9871C16.2342 20.9871 15.9967 20.8871 15.7967 20.6871C15.6133 20.5038 15.5217 20.2704 15.5217 19.9871C15.5217 19.7038 15.6133 19.4704 15.7967 19.2871L16.6717 18.3871L15.7967 17.5121C15.6133 17.3288 15.5217 17.0996 15.5217 16.8246C15.5217 16.5496 15.6133 16.3121 15.7967 16.1121C15.9967 15.9121 16.2342 15.8121 16.5092 15.8121C16.7842 15.8121 17.0217 15.9121 17.2217 16.1121L18.0967 16.9871L18.9717 16.0871C19.155 15.8871 19.3842 15.7871 19.6592 15.7871C19.9342 15.7871 20.1717 15.8871 20.3717 16.0871C20.5717 16.2871 20.6717 16.5246 20.6717 16.7996C20.6717 17.0746 20.5717 17.3121 20.3717 17.5121L19.4967 18.3871L20.3967 19.2871C20.5967 19.4871 20.6925 19.7204 20.6842 19.9871C20.6758 20.2538 20.5717 20.4871 20.3717 20.6871C20.1717 20.8704 19.9383 20.9663 19.6717 20.9746C19.405 20.9829 19.1717 20.8871 18.9717 20.6871L18.0967 19.8121ZM6.09668 19.3871C6.38001 19.3871 6.61751 19.2913 6.80918 19.0996C7.00085 18.9079 7.09668 18.6704 7.09668 18.3871C7.09668 18.1038 7.00085 17.8663 6.80918 17.6746C6.61751 17.4829 6.38001 17.3871 6.09668 17.3871C5.81335 17.3871 5.57585 17.4829 5.38418 17.6746C5.19251 17.8663 5.09668 18.1038 5.09668 18.3871C5.09668 18.6704 5.19251 18.9079 5.38418 19.0996C5.57585 19.2913 5.81335 19.3871 6.09668 19.3871ZM6.09668 21.3871C5.26335 21.3871 4.55501 21.0954 3.97168 20.5121C3.38835 19.9288 3.09668 19.2204 3.09668 18.3871C3.09668 17.5538 3.38835 16.8454 3.97168 16.2621C4.55501 15.6788 5.26335 15.3871 6.09668 15.3871C6.71335 15.3871 7.27585 15.5579 7.78418 15.8996C8.29251 16.2413 8.66335 16.7038 8.89668 17.2871C9.54668 17.1038 10.0758 16.7454 10.4842 16.2121C10.8925 15.6788 11.0967 15.0704 11.0967 14.3871V10.3871C11.0967 9.00378 11.5842 7.82461 12.5592 6.84961C13.5342 5.87461 14.7133 5.38711 16.0967 5.38711H17.2467L16.3717 4.51211C16.1717 4.31211 16.0758 4.07461 16.0842 3.79961C16.0925 3.52461 16.1967 3.28711 16.3967 3.08711C16.5967 2.88711 16.8342 2.78711 17.1092 2.78711C17.3842 2.78711 17.6217 2.88711 17.8217 3.08711L20.3967 5.68711C20.5967 5.88711 20.6967 6.12044 20.6967 6.38711C20.6967 6.65378 20.5967 6.88711 20.3967 7.08711L17.7967 9.68711C17.6133 9.87044 17.3842 9.96628 17.1092 9.97461C16.8342 9.98294 16.5967 9.88711 16.3967 9.68711C16.1967 9.50378 16.0967 9.27044 16.0967 8.98711C16.0967 8.70378 16.1883 8.46211 16.3717 8.26211L17.2467 7.38711H16.0967C15.2633 7.38711 14.555 7.67878 13.9717 8.26211C13.3883 8.84544 13.0967 9.55378 13.0967 10.3871V14.3871C13.0967 15.6038 12.705 16.6746 11.9217 17.5996C11.1383 18.5246 10.1467 19.0954 8.94668 19.3121C8.74668 19.9288 8.38418 20.4288 7.85918 20.8121C7.33418 21.1954 6.74668 21.3871 6.09668 21.3871ZM6.09668 7.81211L5.19668 8.71211C5.01335 8.89544 4.78418 8.98711 4.50918 8.98711C4.23418 8.98711 3.99668 8.88711 3.79668 8.68711C3.61335 8.50378 3.52168 8.27044 3.52168 7.98711C3.52168 7.70378 3.61335 7.47044 3.79668 7.28711L4.67168 6.38711L3.79668 5.51211C3.61335 5.32878 3.52168 5.09961 3.52168 4.82461C3.52168 4.54961 3.61335 4.31211 3.79668 4.11211C3.99668 3.91211 4.23418 3.81211 4.50918 3.81211C4.78418 3.81211 5.02168 3.91211 5.22168 4.11211L6.09668 4.98711L6.97168 4.08711C7.15501 3.88711 7.38418 3.78711 7.65918 3.78711C7.93418 3.78711 8.17168 3.88711 8.37168 4.08711C8.57168 4.28711 8.67168 4.52461 8.67168 4.79961C8.67168 5.07461 8.57168 5.31211 8.37168 5.51211L7.49668 6.38711L8.39668 7.28711C8.59668 7.48711 8.69251 7.72044 8.68418 7.98711C8.67585 8.25378 8.57168 8.48711 8.37168 8.68711C8.17168 8.87044 7.93835 8.96628 7.67168 8.97461C7.40501 8.98294 7.17168 8.88711 6.97168 8.68711L6.09668 7.81211Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Project Management</h3>
+                </div>
+                <h4 class="heading-5">Streamline task coordination to ensure timely completion</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1.webp 2880w" alt="Project-management-nocodb project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1.webp" loading="eager" class="usecase-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_823" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_823)">
+                        <path d="M6.09668 20.3867C5.26335 20.3867 4.55501 20.0951 3.97168 19.5117C3.38835 18.9284 3.09668 18.2201 3.09668 17.3867H2.09668C1.81335 17.3867 1.57585 17.2909 1.38418 17.0992C1.19251 16.9076 1.09668 16.6701 1.09668 16.3867V6.38672C1.09668 5.83672 1.29251 5.36589 1.68418 4.97422C2.07585 4.58255 2.54668 4.38672 3.09668 4.38672H15.0967C15.6467 4.38672 16.1175 4.58255 16.5092 4.97422C16.9008 5.36589 17.0967 5.83672 17.0967 6.38672V8.38672H19.0967C19.4133 8.38672 19.7133 8.45755 19.9967 8.59922C20.28 8.74089 20.5133 8.93672 20.6967 9.18672L22.8967 12.1117C22.9633 12.1951 23.0133 12.2867 23.0467 12.3867C23.08 12.4867 23.0967 12.5951 23.0967 12.7117V16.3867C23.0967 16.6701 23.0008 16.9076 22.8092 17.0992C22.6175 17.2909 22.38 17.3867 22.0967 17.3867H21.0967C21.0967 18.2201 20.805 18.9284 20.2217 19.5117C19.6383 20.0951 18.93 20.3867 18.0967 20.3867C17.2633 20.3867 16.555 20.0951 15.9717 19.5117C15.3883 18.9284 15.0967 18.2201 15.0967 17.3867H9.09668C9.09668 18.2201 8.80501 18.9284 8.22168 19.5117C7.63835 20.0951 6.93001 20.3867 6.09668 20.3867ZM6.09668 18.3867C6.38001 18.3867 6.61751 18.2909 6.80918 18.0992C7.00085 17.9076 7.09668 17.6701 7.09668 17.3867C7.09668 17.1034 7.00085 16.8659 6.80918 16.6742C6.61751 16.4826 6.38001 16.3867 6.09668 16.3867C5.81335 16.3867 5.57585 16.4826 5.38418 16.6742C5.19251 16.8659 5.09668 17.1034 5.09668 17.3867C5.09668 17.6701 5.19251 17.9076 5.38418 18.0992C5.57585 18.2909 5.81335 18.3867 6.09668 18.3867ZM3.09668 15.3867H3.89668C4.18001 15.0867 4.50501 14.8451 4.87168 14.6617C5.23835 14.4784 5.64668 14.3867 6.09668 14.3867C6.54668 14.3867 6.95501 14.4784 7.32168 14.6617C7.68835 14.8451 8.01335 15.0867 8.29668 15.3867H15.0967V6.38672H3.09668V15.3867ZM18.0967 18.3867C18.38 18.3867 18.6175 18.2909 18.8092 18.0992C19.0008 17.9076 19.0967 17.6701 19.0967 17.3867C19.0967 17.1034 19.0008 16.8659 18.8092 16.6742C18.6175 16.4826 18.38 16.3867 18.0967 16.3867C17.8133 16.3867 17.5758 16.4826 17.3842 16.6742C17.1925 16.8659 17.0967 17.1034 17.0967 17.3867C17.0967 17.6701 17.1925 17.9076 17.3842 18.0992C17.5758 18.2909 17.8133 18.3867 18.0967 18.3867ZM17.0967 13.3867H21.3467L19.0967 10.3867H17.0967V13.3867Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Operations</h3>
+                </div>
+                <h4 class="heading-5">Efficient operations management for seamlessly running businesses.</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1.webp 2880w" alt="Operations Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1.webp" loading="eager" class="usecase-image"></div>
+            </div>
+            <div class="slide w-slide">
+              <div class="slider-text-wrapper">
+                <div class="w-layout-hflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_829" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_829)">
+                        <path d="M15.5967 17.5117L20.5467 12.5617C20.73 12.3784 20.9633 12.2867 21.2467 12.2867C21.53 12.2867 21.7633 12.3784 21.9467 12.5617C22.13 12.7451 22.2217 12.9784 22.2217 13.2617C22.2217 13.5451 22.13 13.7784 21.9467 13.9617L16.2967 19.6117C16.0967 19.8117 15.8633 19.9117 15.5967 19.9117C15.33 19.9117 15.0967 19.8117 14.8967 19.6117L12.0467 16.7617C11.8633 16.5784 11.7717 16.3451 11.7717 16.0617C11.7717 15.7784 11.8633 15.5451 12.0467 15.3617C12.23 15.1784 12.4633 15.0867 12.7467 15.0867C13.03 15.0867 13.2633 15.1784 13.4467 15.3617L15.5967 17.5117ZM5.09668 21.3867C4.54668 21.3867 4.07585 21.1909 3.68418 20.7992C3.29251 20.4076 3.09668 19.9367 3.09668 19.3867V5.38672C3.09668 4.83672 3.29251 4.36589 3.68418 3.97422C4.07585 3.58255 4.54668 3.38672 5.09668 3.38672H9.27168C9.45501 2.80339 9.81335 2.32422 10.3467 1.94922C10.88 1.57422 11.4633 1.38672 12.0967 1.38672C12.7633 1.38672 13.3592 1.57422 13.8842 1.94922C14.4092 2.32422 14.7633 2.80339 14.9467 3.38672H19.0967C19.6467 3.38672 20.1175 3.58255 20.5092 3.97422C20.9008 4.36589 21.0967 4.83672 21.0967 5.38672V9.38672C21.0967 9.67005 21.0008 9.90755 20.8092 10.0992C20.6175 10.2909 20.38 10.3867 20.0967 10.3867C19.8133 10.3867 19.5758 10.2909 19.3842 10.0992C19.1925 9.90755 19.0967 9.67005 19.0967 9.38672V5.38672H17.0967V7.38672C17.0967 7.67005 17.0008 7.90755 16.8092 8.09922C16.6175 8.29089 16.38 8.38672 16.0967 8.38672H8.09668C7.81335 8.38672 7.57585 8.29089 7.38418 8.09922C7.19251 7.90755 7.09668 7.67005 7.09668 7.38672V5.38672H5.09668V19.3867H10.0967C10.38 19.3867 10.6175 19.4826 10.8092 19.6742C11.0008 19.8659 11.0967 20.1034 11.0967 20.3867C11.0967 20.6701 11.0008 20.9076 10.8092 21.0992C10.6175 21.2909 10.38 21.3867 10.0967 21.3867H5.09668ZM12.0967 5.38672C12.38 5.38672 12.6175 5.29089 12.8092 5.09922C13.0008 4.90755 13.0967 4.67005 13.0967 4.38672C13.0967 4.10339 13.0008 3.86589 12.8092 3.67422C12.6175 3.48255 12.38 3.38672 12.0967 3.38672C11.8133 3.38672 11.5758 3.48255 11.3842 3.67422C11.1925 3.86589 11.0967 4.10339 11.0967 4.38672C11.0967 4.67005 11.1925 4.90755 11.3842 5.09922C11.5758 5.29089 11.8133 5.38672 12.0967 5.38672Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Inventory Management</h3>
+                </div>
+                <h4 class="heading-5">Simplify Data Entry and Updates, Making Information Management a Breeze</h4>
+              </div>
+              <div class="slider-image-wrapper"><img sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 100vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1.webp 2880w" alt="Inventory Management Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1.webp" loading="eager" class="usecase-image"></div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left"></div>
+          <div class="right-arrow w-slider-arrow-right"></div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+        <div class="tab-block-views">
+          <div data-current="Project Tracking" data-easing="ease-in-out" data-duration-in="500" data-duration-out="100" class="tabs w-tabs">
+            <div class="tabs-menu w-tab-menu">
+              <a data-w-tab="CRM" data-event="site/a:usecases-section:crm" style="background-color:rgb(255,255,255)" class="tab-button w-inline-block w-tab-link">
+                <div class="w-layout-hflex h-flex-12gap tab">
+                  <div class="usecase-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_811" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_811)">
+                        <path d="M12.0967 21.3867C11.8133 21.3867 11.5758 21.2909 11.3842 21.0992C11.1925 20.9076 11.0967 20.6701 11.0967 20.3867C11.0967 20.1034 11.1925 19.8659 11.3842 19.6742C11.5758 19.4826 11.8133 19.3867 12.0967 19.3867H19.0967V12.2867C19.0967 10.3367 18.4175 8.68255 17.0592 7.32422C15.7008 5.96589 14.0467 5.28672 12.0967 5.28672C10.1467 5.28672 8.49251 5.96589 7.13418 7.32422C5.77585 8.68255 5.09668 10.3367 5.09668 12.2867V17.3867C5.09668 17.6701 5.00085 17.9076 4.80918 18.0992C4.61751 18.2909 4.38001 18.3867 4.09668 18.3867C3.54668 18.3867 3.07585 18.1909 2.68418 17.7992C2.29251 17.4076 2.09668 16.9367 2.09668 16.3867V14.3867C2.09668 14.0367 2.18418 13.7076 2.35918 13.3992C2.53418 13.0909 2.78001 12.8451 3.09668 12.6617L3.17168 11.3367C3.30501 10.2034 3.63418 9.15339 4.15918 8.18672C4.68418 7.22005 5.34251 6.37839 6.13418 5.66172C6.92585 4.94505 7.83418 4.38672 8.85918 3.98672C9.88418 3.58672 10.9633 3.38672 12.0967 3.38672C13.23 3.38672 14.305 3.58672 15.3217 3.98672C16.3383 4.38672 17.2467 4.94089 18.0467 5.64922C18.8467 6.35755 19.505 7.19505 20.0217 8.16172C20.5383 9.12839 20.8717 10.1784 21.0217 11.3117L21.0967 12.6117C21.4133 12.7617 21.6592 12.9867 21.8342 13.2867C22.0092 13.5867 22.0967 13.9034 22.0967 14.2367V16.5367C22.0967 16.8701 22.0092 17.1867 21.8342 17.4867C21.6592 17.7867 21.4133 18.0117 21.0967 18.1617V19.3867C21.0967 19.9367 20.9008 20.4076 20.5092 20.7992C20.1175 21.1909 19.6467 21.3867 19.0967 21.3867H12.0967ZM9.09668 14.3867C8.81335 14.3867 8.57585 14.2909 8.38418 14.0992C8.19251 13.9076 8.09668 13.6701 8.09668 13.3867C8.09668 13.1034 8.19251 12.8659 8.38418 12.6742C8.57585 12.4826 8.81335 12.3867 9.09668 12.3867C9.38001 12.3867 9.61751 12.4826 9.80918 12.6742C10.0008 12.8659 10.0967 13.1034 10.0967 13.3867C10.0967 13.6701 10.0008 13.9076 9.80918 14.0992C9.61751 14.2909 9.38001 14.3867 9.09668 14.3867ZM15.0967 14.3867C14.8133 14.3867 14.5758 14.2909 14.3842 14.0992C14.1925 13.9076 14.0967 13.6701 14.0967 13.3867C14.0967 13.1034 14.1925 12.8659 14.3842 12.6742C14.5758 12.4826 14.8133 12.3867 15.0967 12.3867C15.38 12.3867 15.6175 12.4826 15.8092 12.6742C16.0008 12.8659 16.0967 13.1034 16.0967 13.3867C16.0967 13.6701 16.0008 13.9076 15.8092 14.0992C15.6175 14.2909 15.38 14.3867 15.0967 14.3867ZM6.12168 12.8367C6.00501 11.0701 6.53835 9.55339 7.72168 8.28672C8.90501 7.02005 10.38 6.38672 12.1467 6.38672C13.63 6.38672 14.9342 6.85755 16.0592 7.79922C17.1842 8.74089 17.8633 9.94505 18.0967 11.4117C16.58 11.3951 15.1842 10.9867 13.9092 10.1867C12.6342 9.38672 11.655 8.30339 10.9717 6.93672C10.705 8.27005 10.1425 9.45755 9.28418 10.4992C8.42585 11.5409 7.37168 12.3201 6.12168 12.8367Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">CRM</h3>
+                </div>
+                <h4 class="heading-5">Centralize customer interactions to enhance relationships</h4>
+                <div class="tab-loader"></div>
+              </a>
+              <a data-w-tab="Project Tracking" data-event="site/a:usecases-section:project-tracking" style="background-color:rgb(255,255,255)" class="tab-button w-inline-block w-tab-link w--current">
+                <div class="w-layout-hflex h-flex-12gap tab">
+                  <div class="usecase-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_817" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_817)">
+                        <path d="M18.0967 19.8121L17.1967 20.7121C17.0133 20.8954 16.7842 20.9871 16.5092 20.9871C16.2342 20.9871 15.9967 20.8871 15.7967 20.6871C15.6133 20.5038 15.5217 20.2704 15.5217 19.9871C15.5217 19.7038 15.6133 19.4704 15.7967 19.2871L16.6717 18.3871L15.7967 17.5121C15.6133 17.3288 15.5217 17.0996 15.5217 16.8246C15.5217 16.5496 15.6133 16.3121 15.7967 16.1121C15.9967 15.9121 16.2342 15.8121 16.5092 15.8121C16.7842 15.8121 17.0217 15.9121 17.2217 16.1121L18.0967 16.9871L18.9717 16.0871C19.155 15.8871 19.3842 15.7871 19.6592 15.7871C19.9342 15.7871 20.1717 15.8871 20.3717 16.0871C20.5717 16.2871 20.6717 16.5246 20.6717 16.7996C20.6717 17.0746 20.5717 17.3121 20.3717 17.5121L19.4967 18.3871L20.3967 19.2871C20.5967 19.4871 20.6925 19.7204 20.6842 19.9871C20.6758 20.2538 20.5717 20.4871 20.3717 20.6871C20.1717 20.8704 19.9383 20.9663 19.6717 20.9746C19.405 20.9829 19.1717 20.8871 18.9717 20.6871L18.0967 19.8121ZM6.09668 19.3871C6.38001 19.3871 6.61751 19.2913 6.80918 19.0996C7.00085 18.9079 7.09668 18.6704 7.09668 18.3871C7.09668 18.1038 7.00085 17.8663 6.80918 17.6746C6.61751 17.4829 6.38001 17.3871 6.09668 17.3871C5.81335 17.3871 5.57585 17.4829 5.38418 17.6746C5.19251 17.8663 5.09668 18.1038 5.09668 18.3871C5.09668 18.6704 5.19251 18.9079 5.38418 19.0996C5.57585 19.2913 5.81335 19.3871 6.09668 19.3871ZM6.09668 21.3871C5.26335 21.3871 4.55501 21.0954 3.97168 20.5121C3.38835 19.9288 3.09668 19.2204 3.09668 18.3871C3.09668 17.5538 3.38835 16.8454 3.97168 16.2621C4.55501 15.6788 5.26335 15.3871 6.09668 15.3871C6.71335 15.3871 7.27585 15.5579 7.78418 15.8996C8.29251 16.2413 8.66335 16.7038 8.89668 17.2871C9.54668 17.1038 10.0758 16.7454 10.4842 16.2121C10.8925 15.6788 11.0967 15.0704 11.0967 14.3871V10.3871C11.0967 9.00378 11.5842 7.82461 12.5592 6.84961C13.5342 5.87461 14.7133 5.38711 16.0967 5.38711H17.2467L16.3717 4.51211C16.1717 4.31211 16.0758 4.07461 16.0842 3.79961C16.0925 3.52461 16.1967 3.28711 16.3967 3.08711C16.5967 2.88711 16.8342 2.78711 17.1092 2.78711C17.3842 2.78711 17.6217 2.88711 17.8217 3.08711L20.3967 5.68711C20.5967 5.88711 20.6967 6.12044 20.6967 6.38711C20.6967 6.65378 20.5967 6.88711 20.3967 7.08711L17.7967 9.68711C17.6133 9.87044 17.3842 9.96628 17.1092 9.97461C16.8342 9.98294 16.5967 9.88711 16.3967 9.68711C16.1967 9.50378 16.0967 9.27044 16.0967 8.98711C16.0967 8.70378 16.1883 8.46211 16.3717 8.26211L17.2467 7.38711H16.0967C15.2633 7.38711 14.555 7.67878 13.9717 8.26211C13.3883 8.84544 13.0967 9.55378 13.0967 10.3871V14.3871C13.0967 15.6038 12.705 16.6746 11.9217 17.5996C11.1383 18.5246 10.1467 19.0954 8.94668 19.3121C8.74668 19.9288 8.38418 20.4288 7.85918 20.8121C7.33418 21.1954 6.74668 21.3871 6.09668 21.3871ZM6.09668 7.81211L5.19668 8.71211C5.01335 8.89544 4.78418 8.98711 4.50918 8.98711C4.23418 8.98711 3.99668 8.88711 3.79668 8.68711C3.61335 8.50378 3.52168 8.27044 3.52168 7.98711C3.52168 7.70378 3.61335 7.47044 3.79668 7.28711L4.67168 6.38711L3.79668 5.51211C3.61335 5.32878 3.52168 5.09961 3.52168 4.82461C3.52168 4.54961 3.61335 4.31211 3.79668 4.11211C3.99668 3.91211 4.23418 3.81211 4.50918 3.81211C4.78418 3.81211 5.02168 3.91211 5.22168 4.11211L6.09668 4.98711L6.97168 4.08711C7.15501 3.88711 7.38418 3.78711 7.65918 3.78711C7.93418 3.78711 8.17168 3.88711 8.37168 4.08711C8.57168 4.28711 8.67168 4.52461 8.67168 4.79961C8.67168 5.07461 8.57168 5.31211 8.37168 5.51211L7.49668 6.38711L8.39668 7.28711C8.59668 7.48711 8.69251 7.72044 8.68418 7.98711C8.67585 8.25378 8.57168 8.48711 8.37168 8.68711C8.17168 8.87044 7.93835 8.96628 7.67168 8.97461C7.40501 8.98294 7.17168 8.88711 6.97168 8.68711L6.09668 7.81211Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Project Management</h3>
+                </div>
+                <h4 class="heading-5">Streamline task coordination to ensure timely completion</h4>
+                <div class="tab-loader"></div>
+              </a>
+              <a data-w-tab="Operations" data-event="site/a:usecases-section:operations" style="background-color:rgb(255,255,255)" class="tab-button w-inline-block w-tab-link">
+                <div class="w-layout-hflex h-flex-12gap tab">
+                  <div class="usecase-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_823" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_823)">
+                        <path d="M6.09668 20.3867C5.26335 20.3867 4.55501 20.0951 3.97168 19.5117C3.38835 18.9284 3.09668 18.2201 3.09668 17.3867H2.09668C1.81335 17.3867 1.57585 17.2909 1.38418 17.0992C1.19251 16.9076 1.09668 16.6701 1.09668 16.3867V6.38672C1.09668 5.83672 1.29251 5.36589 1.68418 4.97422C2.07585 4.58255 2.54668 4.38672 3.09668 4.38672H15.0967C15.6467 4.38672 16.1175 4.58255 16.5092 4.97422C16.9008 5.36589 17.0967 5.83672 17.0967 6.38672V8.38672H19.0967C19.4133 8.38672 19.7133 8.45755 19.9967 8.59922C20.28 8.74089 20.5133 8.93672 20.6967 9.18672L22.8967 12.1117C22.9633 12.1951 23.0133 12.2867 23.0467 12.3867C23.08 12.4867 23.0967 12.5951 23.0967 12.7117V16.3867C23.0967 16.6701 23.0008 16.9076 22.8092 17.0992C22.6175 17.2909 22.38 17.3867 22.0967 17.3867H21.0967C21.0967 18.2201 20.805 18.9284 20.2217 19.5117C19.6383 20.0951 18.93 20.3867 18.0967 20.3867C17.2633 20.3867 16.555 20.0951 15.9717 19.5117C15.3883 18.9284 15.0967 18.2201 15.0967 17.3867H9.09668C9.09668 18.2201 8.80501 18.9284 8.22168 19.5117C7.63835 20.0951 6.93001 20.3867 6.09668 20.3867ZM6.09668 18.3867C6.38001 18.3867 6.61751 18.2909 6.80918 18.0992C7.00085 17.9076 7.09668 17.6701 7.09668 17.3867C7.09668 17.1034 7.00085 16.8659 6.80918 16.6742C6.61751 16.4826 6.38001 16.3867 6.09668 16.3867C5.81335 16.3867 5.57585 16.4826 5.38418 16.6742C5.19251 16.8659 5.09668 17.1034 5.09668 17.3867C5.09668 17.6701 5.19251 17.9076 5.38418 18.0992C5.57585 18.2909 5.81335 18.3867 6.09668 18.3867ZM3.09668 15.3867H3.89668C4.18001 15.0867 4.50501 14.8451 4.87168 14.6617C5.23835 14.4784 5.64668 14.3867 6.09668 14.3867C6.54668 14.3867 6.95501 14.4784 7.32168 14.6617C7.68835 14.8451 8.01335 15.0867 8.29668 15.3867H15.0967V6.38672H3.09668V15.3867ZM18.0967 18.3867C18.38 18.3867 18.6175 18.2909 18.8092 18.0992C19.0008 17.9076 19.0967 17.6701 19.0967 17.3867C19.0967 17.1034 19.0008 16.8659 18.8092 16.6742C18.6175 16.4826 18.38 16.3867 18.0967 16.3867C17.8133 16.3867 17.5758 16.4826 17.3842 16.6742C17.1925 16.8659 17.0967 17.1034 17.0967 17.3867C17.0967 17.6701 17.1925 17.9076 17.3842 18.0992C17.5758 18.2909 17.8133 18.3867 18.0967 18.3867ZM17.0967 13.3867H21.3467L19.0967 10.3867H17.0967V13.3867Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Operations</h3>
+                </div>
+                <h4 class="heading-5">Efficient operations management for seamlessly running businesses.</h4>
+                <div class="tab-loader"></div>
+              </a>
+              <a data-w-tab="Items Management" data-event="site/a:usecases-section:items-management" style="background-color:rgb(255,255,255)" class="tab-button w-inline-block w-tab-link">
+                <div class="w-layout-hflex h-flex-12gap tab">
+                  <div class="usecase-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_1930_829" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                        <rect x="0.0966797" y="0.386719" width="24" height="24" fill="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_1930_829)">
+                        <path d="M15.5967 17.5117L20.5467 12.5617C20.73 12.3784 20.9633 12.2867 21.2467 12.2867C21.53 12.2867 21.7633 12.3784 21.9467 12.5617C22.13 12.7451 22.2217 12.9784 22.2217 13.2617C22.2217 13.5451 22.13 13.7784 21.9467 13.9617L16.2967 19.6117C16.0967 19.8117 15.8633 19.9117 15.5967 19.9117C15.33 19.9117 15.0967 19.8117 14.8967 19.6117L12.0467 16.7617C11.8633 16.5784 11.7717 16.3451 11.7717 16.0617C11.7717 15.7784 11.8633 15.5451 12.0467 15.3617C12.23 15.1784 12.4633 15.0867 12.7467 15.0867C13.03 15.0867 13.2633 15.1784 13.4467 15.3617L15.5967 17.5117ZM5.09668 21.3867C4.54668 21.3867 4.07585 21.1909 3.68418 20.7992C3.29251 20.4076 3.09668 19.9367 3.09668 19.3867V5.38672C3.09668 4.83672 3.29251 4.36589 3.68418 3.97422C4.07585 3.58255 4.54668 3.38672 5.09668 3.38672H9.27168C9.45501 2.80339 9.81335 2.32422 10.3467 1.94922C10.88 1.57422 11.4633 1.38672 12.0967 1.38672C12.7633 1.38672 13.3592 1.57422 13.8842 1.94922C14.4092 2.32422 14.7633 2.80339 14.9467 3.38672H19.0967C19.6467 3.38672 20.1175 3.58255 20.5092 3.97422C20.9008 4.36589 21.0967 4.83672 21.0967 5.38672V9.38672C21.0967 9.67005 21.0008 9.90755 20.8092 10.0992C20.6175 10.2909 20.38 10.3867 20.0967 10.3867C19.8133 10.3867 19.5758 10.2909 19.3842 10.0992C19.1925 9.90755 19.0967 9.67005 19.0967 9.38672V5.38672H17.0967V7.38672C17.0967 7.67005 17.0008 7.90755 16.8092 8.09922C16.6175 8.29089 16.38 8.38672 16.0967 8.38672H8.09668C7.81335 8.38672 7.57585 8.29089 7.38418 8.09922C7.19251 7.90755 7.09668 7.67005 7.09668 7.38672V5.38672H5.09668V19.3867H10.0967C10.38 19.3867 10.6175 19.4826 10.8092 19.6742C11.0008 19.8659 11.0967 20.1034 11.0967 20.3867C11.0967 20.6701 11.0008 20.9076 10.8092 21.0992C10.6175 21.2909 10.38 21.3867 10.0967 21.3867H5.09668ZM12.0967 5.38672C12.38 5.38672 12.6175 5.29089 12.8092 5.09922C13.0008 4.90755 13.0967 4.67005 13.0967 4.38672C13.0967 4.10339 13.0008 3.86589 12.8092 3.67422C12.6175 3.48255 12.38 3.38672 12.0967 3.38672C11.8133 3.38672 11.5758 3.48255 11.3842 3.67422C11.1925 3.86589 11.0967 4.10339 11.0967 4.38672C11.0967 4.67005 11.1925 4.90755 11.3842 5.09922C11.5758 5.29089 11.8133 5.38672 12.0967 5.38672Z" fill="currentColor"></path>
+                      </g>
+                    </svg></div>
+                  <h3 class="heading-4">Inventory Management</h3>
+                </div>
+                <h4 class="heading-5">Effortlessly track, organize, and optimize your stock levels.</h4>
+                <div class="tab-loader"></div>
+              </a>
+            </div>
+            <div class="tabs-content w-tab-content">
+              <div data-w-tab="CRM" class="use-case-tab w-tab-pane"><img width="621" sizes="(max-width: 767px) 100vw, (max-width: 991px) 91vw, 98vw" alt="CRM Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1.webp" loading="eager" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/CRM-1.webp 2880w" class="views-image-class"></div>
+              <div data-w-tab="Project Tracking" class="use-case-tab w-tab-pane w--tab-active"><img sizes="(max-width: 767px) 100vw, (max-width: 991px) 91vw, 98vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1.webp 2880w" alt="Project-management-nocodb project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/issue-management-1.webp" loading="eager" class="views-image-class"></div>
+              <div data-w-tab="Operations" class="use-case-tab w-tab-pane"><img sizes="(max-width: 767px) 100vw, (max-width: 991px) 91vw, 98vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1.webp 2880w" alt="Operations Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/operations-1.webp" loading="eager" class="views-image-class"></div>
+              <div data-w-tab="Items Management" class="use-case-tab w-tab-pane"><img sizes="(max-width: 767px) 100vw, (max-width: 991px) 91vw, 98vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1.webp 2880w" alt="Inventory Management Project" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/product-management-1.webp" loading="eager" class="views-image-class"></div>
+            </div>
+          </div>
+        </div>
+        <aside id="Why-NocoDB" class="scroll-offset _20"></aside>
+      </div>
+    </section>
+    <section class="why-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1 text-colour-white">Why NocoDB ?</h1>
+          <h2 class="section-h2 text-colour-white">A new no-code paradigm that offers you data sovereignty, unprecedented scale, and exceptional value as a customer.</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-block yellow">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_531_61301)">
+                    <path d="M17.0006 26.3606H1.00063C0.801625 26.3606 0.640625 26.1996 0.640625 26.0006V19.0006C0.640625 18.8016 0.801625 18.6406 1.00063 18.6406H17.0006V19.3616H1.36063V25.6406H17.0006V26.3606ZM17.0006 17.3606H1.00063C0.801625 17.3606 0.640625 17.1996 0.640625 17.0006V10.0006C0.640625 9.80162 0.801625 9.64062 1.00063 9.64062H26.0006C26.1996 9.64062 26.3606 9.80162 26.3606 10.0006V13.0006H25.6406V10.3606H1.36063V16.6406H17.0006V17.3606ZM26.0006 8.36062H1.00063C0.801625 8.36062 0.640625 8.19963 0.640625 8.00063V1.00063C0.640625 0.801625 0.801625 0.640625 1.00063 0.640625H26.0006C26.1996 0.640625 26.3606 0.801625 26.3606 1.00063V8.00063C26.3606 8.19963 26.1996 8.36062 26.0006 8.36062ZM1.36063 7.64062H25.6406V1.36063H1.36063V7.64062ZM22.0006 14.5006C21.4486 14.5006 21.0006 14.0526 21.0006 13.5006C21.0006 12.9486 21.4486 12.5006 22.0006 12.5006C22.5526 12.5006 23.0006 12.9486 23.0006 13.5006C23.0006 14.0526 22.5526 14.5006 22.0006 14.5006ZM23.0006 4.50063C23.0006 3.94863 22.5526 3.50063 22.0006 3.50063C21.4486 3.50063 21.0006 3.94863 21.0006 4.50063C21.0006 5.05263 21.4486 5.50063 22.0006 5.50063C22.5526 5.50063 23.0006 5.05263 23.0006 4.50063ZM25.0006 31.3606C21.4936 31.3606 18.6406 28.5066 18.6406 25.0006V17.7776L25.0006 14.5976L31.3606 17.7776V25.0006C31.3606 28.5076 28.5076 31.3606 25.0006 31.3606ZM19.3606 18.2236V25.0006C19.3606 28.1106 21.8896 30.6406 25.0006 30.6406C28.1116 30.6406 30.6406 28.1116 30.6406 25.0006V18.2236L25.0006 15.4026L19.3606 18.2236Z" fill="currentColor"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_531_61301">
+                      <rect width="32" height="32" fill="white"></rect>
+                    </clippath>
+                  </defs>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 green">NocoDB Is Redefining Data Ownership For Customers</h2>
+            <h3 class="reason-h12 text-colour-white">Using no-code solutions shouldn&#x27;t mean you have no direct access to the data and have artificial glass ceilings imposed on your data capabilities.</h3>
+          </div>
+          <div class="why-block maroon">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.3548 30.2776H13.4148V30.2176V24.5752H14.4372C15.329 24.5752 16.0548 23.8501 16.0548 22.9576V19.6576C16.0548 17.6735 14.4406 16.06 12.4572 16.06H11.1372C9.15311 16.06 7.53961 17.6735 7.53961 19.6576V22.9576C7.53961 23.8494 8.26541 24.5752 9.15721 24.5752H10.1796V30.2176V30.2776H10.2396H10.7148H10.7748V30.2176V24.2776C10.7748 24.1131 10.6417 23.98 10.4772 23.98H9.15721C8.59371 23.98 8.13481 23.5211 8.13481 22.9576V19.6576C8.13481 18.0024 9.48141 16.6552 11.1372 16.6552H12.4572C14.113 16.6552 15.4596 18.0018 15.4596 19.6576V22.9576C15.4596 23.5217 15.0007 23.98 14.4372 23.98H13.1172C12.9527 23.98 12.8196 24.1131 12.8196 24.2776V30.2176V30.2776H12.8796H13.3548ZM9.84961 13.3876C9.84961 14.4616 10.7233 15.3352 11.7972 15.3352C12.8712 15.3352 13.7448 14.4616 13.7448 13.3876C13.7448 12.3136 12.8712 11.44 11.7972 11.44C10.7233 11.44 9.84961 12.3136 9.84961 13.3876ZM10.4448 13.3876C10.4448 12.6419 11.0515 12.0352 11.7972 12.0352C12.5429 12.0352 13.1496 12.6419 13.1496 13.3876C13.1496 14.1333 12.5429 14.74 11.7972 14.74C11.0515 14.74 10.4448 14.1333 10.4448 13.3876Z" fill="currentColor" stroke="currentColor" stroke-width="0.12"></path>
+                  <path d="M3.47721 30.2382H3.59721V30.1182V27.387H4.01841C4.51398 27.387 4.91721 26.9841 4.91721 26.4882V24.8382C4.91721 23.7964 4.06982 22.9494 3.02841 22.9494H2.36841C1.32666 22.9494 0.479609 23.7964 0.479609 24.8382V26.4882C0.479609 26.9838 0.882805 27.387 1.37841 27.387H1.79961V30.1182V30.2382H1.91961H2.15721H2.27721V30.1182V27.1482C2.27721 27.0162 2.17035 26.9094 2.03841 26.9094H1.37841C1.14636 26.9094 0.957209 26.7202 0.957209 26.4882V24.8382C0.957209 24.0603 1.59023 23.427 2.36841 23.427H3.02841C3.80661 23.427 4.43961 24.06 4.43961 24.8382V26.4882C4.43961 26.7205 4.2505 26.9094 4.01841 26.9094H3.35841C3.22646 26.9094 3.11961 27.0162 3.11961 27.1482V30.1182V30.2382H3.23961H3.47721ZM1.63461 21.3032C1.63461 21.8899 2.11172 22.367 2.69841 22.367C3.28509 22.367 3.76221 21.8899 3.76221 21.3032C3.76221 20.7165 3.28509 20.2394 2.69841 20.2394C2.11172 20.2394 1.63461 20.7165 1.63461 21.3032ZM2.11221 21.3032C2.11221 20.98 2.37528 20.717 2.69841 20.717C3.02153 20.717 3.28461 20.98 3.28461 21.3032C3.28461 21.6263 3.02153 21.8894 2.69841 21.8894C2.37528 21.8894 2.11221 21.6263 2.11221 21.3032Z" fill="currentColor" stroke="currentColor" stroke-width="0.24"></path>
+                  <path d="M27.3196 30.36H26.5996V21.36C26.5996 21.161 26.7606 21 26.9596 21H28.9596C29.8636 21 30.5996 20.265 30.5996 19.36V14.36C30.5996 11.801 28.5186 9.72 25.9596 9.72H23.9596C21.4006 9.72 19.3196 11.802 19.3196 14.36V19.36C19.3196 20.264 20.0556 21 20.9596 21H22.9596C23.1586 21 23.3196 21.161 23.3196 21.36V30.36H22.5996V21.72H20.9596C19.6586 21.72 18.5996 20.661 18.5996 19.36V14.36C18.5996 11.404 21.0036 9 23.9596 9H25.9596C28.9146 9 31.3196 11.404 31.3196 14.36V19.36C31.3196 20.662 30.2606 21.72 28.9596 21.72H27.3196V30.36ZM24.9596 7.72C23.3826 7.72 22.0996 6.437 22.0996 4.86C22.0996 3.283 23.3826 2 24.9596 2C26.5366 2 27.8196 3.283 27.8196 4.86C27.8196 6.437 26.5366 7.72 24.9596 7.72ZM24.9596 2.72C23.7796 2.72 22.8196 3.68 22.8196 4.86C22.8196 6.04 23.7796 7 24.9596 7C26.1396 7 27.0996 6.04 27.0996 4.86C27.0996 3.68 26.1396 2.72 24.9596 2.72Z" fill="currentColor"></path>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 maroon"><strong class="maroon">NocoDB Values Customers of all Sizes</strong></h2>
+            <h3 class="reason-h12 text-colour-white">With strong open source ethos - NocoDB caters to businesses of all sizes &amp; shapes . Be it Agencies, Startups, Small Medium Businesses and Enterprises.</h3>
+          </div>
+          <div class="why-block blue">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_531_61307)">
+                    <path d="M16.0006 31.3606H1.00063C0.801625 31.3606 0.640625 31.1996 0.640625 31.0006V9.00062C0.640625 8.80162 0.801625 8.64062 1.00063 8.64062H8.15562V5.00063C8.15562 4.80163 8.31663 4.64062 8.51563 4.64062H15.6406V1.00063C15.6406 0.801625 15.8016 0.640625 16.0006 0.640625H31.0006C31.1996 0.640625 31.3606 0.801625 31.3606 1.00063V23.0006C31.3606 23.1996 31.1996 23.3606 31.0006 23.3606H23.8766V27.0006C23.8766 27.1996 23.7156 27.3606 23.5166 27.3606H16.3606V31.0006C16.3606 31.1996 16.1996 31.3606 16.0006 31.3606ZM1.36063 30.6406H15.6406V9.36062H1.36063V30.6406ZM16.3606 26.6406H23.1556V5.36063H8.87562V8.64062H16.0006C16.1996 8.64062 16.3606 8.80162 16.3606 9.00062V26.6406ZM23.8766 22.6406H30.6406V1.36063H16.3606V4.64062H23.5166C23.7156 4.64062 23.8766 4.80163 23.8766 5.00063V22.6406Z" fill="currentColor"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_531_61307">
+                      <rect width="32" height="32" fill="white"></rect>
+                    </clippath>
+                  </defs>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 blue">NocoDB Scales Millions of Rows - No Need to &quot;Talk to Sales&quot;</h2>
+            <h3 class="reason-h12 text-colour-white">While other platforms limit high-volume no-code databases to enterprise plans, many NocoDB customers are already dealing in millions of rows with ease without ever talking to a sales person.</h3>
+          </div>
+          <div class="why-block orange">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_531_61310)">
+                    <path d="M2.74523 31.2541L0.490234 28.9991L2.74523 26.7441L3.25423 27.2541L1.86823 28.6391H28.6872C28.8452 28.0641 29.3742 27.6391 29.9992 27.6391C30.7492 27.6391 31.3592 28.2491 31.3592 28.9991C31.3592 29.7491 30.7492 30.3591 29.9992 30.3591C29.3742 30.3591 28.8462 29.9341 28.6872 29.3591H1.86823L3.25323 30.7441L2.74523 31.2541ZM29.9992 28.3591C29.6462 28.3591 29.3592 28.6461 29.3592 28.9991C29.3592 29.3521 29.6462 29.6391 29.9992 29.6391C30.3522 29.6391 30.6392 29.3521 30.6392 28.9991C30.6392 28.6461 30.3522 28.3591 29.9992 28.3591ZM29.2542 23.2541L28.7442 22.7441L30.1302 21.3591H3.31123C3.15323 21.9341 2.62523 22.3591 1.99923 22.3591C1.24923 22.3591 0.639234 21.7491 0.639234 20.9991C0.639234 20.2491 1.24923 19.6391 1.99923 19.6391C2.62423 19.6391 3.15223 20.0641 3.31123 20.6391H30.1302L28.7442 19.2541L29.2542 18.7441L31.5082 20.9991L29.2542 23.2541ZM1.99923 20.3591C1.64623 20.3591 1.35923 20.6461 1.35923 20.9991C1.35923 21.3521 1.64623 21.6391 1.99923 21.6391C2.35223 21.6391 2.63923 21.3521 2.63923 20.9991C2.63923 20.6461 2.35223 20.3591 1.99923 20.3591ZM2.74523 13.2531L0.490234 10.9991L2.74523 8.74514L3.25423 9.25414L1.86823 10.6391H28.6872C28.8452 10.0631 29.3742 9.63914 29.9992 9.63914C30.7492 9.63914 31.3592 10.2491 31.3592 10.9991C31.3592 11.7491 30.7492 12.3591 29.9992 12.3591C29.3742 12.3591 28.8462 11.9351 28.6872 11.3591H1.86823L3.25323 12.7451L2.74523 13.2531ZM29.9992 10.3591C29.6462 10.3591 29.3592 10.6461 29.3592 10.9991C29.3592 11.3521 29.6462 11.6391 29.9992 11.6391C30.3522 11.6391 30.6392 11.3521 30.6392 10.9991C30.6392 10.6461 30.3522 10.3591 29.9992 10.3591ZM29.2542 5.25314L28.7442 4.74414L30.1302 3.35814H3.31123C3.15323 3.93414 2.62523 4.35814 1.99923 4.35814C1.24923 4.35914 0.639234 3.74914 0.639234 2.99914C0.639234 2.24914 1.24923 1.63914 1.99923 1.63914C2.62423 1.63914 3.15223 2.06314 3.31123 2.63914H30.1302L28.7442 1.25314L29.2542 0.744141L31.5082 2.99914L29.2542 5.25314ZM1.99923 2.35914C1.64623 2.35914 1.35923 2.64614 1.35923 2.99914C1.35923 3.35214 1.64623 3.63914 1.99923 3.63914C2.35223 3.63914 2.63923 3.35214 2.63923 2.99914C2.63923 2.64614 2.35223 2.35914 1.99923 2.35914Z" fill="currentColor"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_531_61310">
+                      <rect width="32" height="32" fill="white"></rect>
+                    </clippath>
+                  </defs>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 orange">NocoDB Provides High API Throughput</h2>
+            <h3 class="reason-h12 text-colour-white">Streamline and automate with confidence; NocoDB has your back. Rely on robust infrastructure to drive your operations smoothly and efficiently.</h3>
+          </div>
+          <div id="w-node-e89b71bd-f9fa-eb59-4dc7-0b83f50ca51e-499496c0" class="why-block pink">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_531_61297)">
+                    <path d="M24.3606 30.9996H23.6406V23.5076C23.6406 19.9516 21.2266 16.8956 17.7686 16.0756C17.6186 16.0396 17.5076 15.9126 17.4936 15.7596C17.4786 15.6056 17.5646 15.4596 17.7056 15.3966C19.2226 14.7216 20.2016 13.2156 20.2016 11.5606C20.2016 9.24463 18.3176 7.35963 16.0016 7.35963C13.6856 7.35963 11.8016 9.24363 11.8016 11.5606C11.8016 13.2166 12.7816 14.7226 14.2976 15.3966C14.4386 15.4596 14.5236 15.6056 14.5096 15.7596C14.4956 15.9126 14.3846 16.0406 14.2346 16.0756C10.7766 16.8946 8.36263 19.9506 8.36263 23.5076V30.9996H7.64263V23.5076C7.64263 19.9106 9.89862 16.7826 13.2276 15.6206C11.9006 14.7136 11.0806 13.1996 11.0806 11.5606C11.0806 9.59663 12.2376 7.89663 13.9056 7.10863C14.1016 6.61663 14.2006 6.09663 14.2006 5.56063C14.2006 3.24463 12.3166 1.35963 10.0006 1.35963C7.68462 1.35963 5.79962 3.24363 5.79962 5.56063C5.79962 7.21562 6.77962 8.72263 8.29563 9.39663C8.43763 9.45963 8.52262 9.60563 8.50763 9.75963C8.49363 9.91263 8.38263 10.0406 8.23263 10.0756C4.77463 10.8956 2.36062 13.9476 2.36062 17.4996V24.9996H1.64062V17.4996C1.64062 13.9076 3.89762 10.7816 7.22563 9.62063C5.89962 8.71363 5.08063 7.19963 5.08063 5.56063C5.08063 2.84763 7.28762 0.640625 10.0006 0.640625C12.7136 0.640625 14.9206 2.84763 14.9206 5.56063C14.9206 5.98263 14.8686 6.39663 14.7636 6.79763C15.5546 6.59263 16.4466 6.59263 17.2366 6.79763C17.1326 6.39663 17.0796 5.98263 17.0796 5.56063C17.0796 2.84763 19.2876 0.640625 22.0006 0.640625C24.7136 0.640625 26.9216 2.84763 26.9216 5.56063C26.9216 7.20062 26.1016 8.71463 24.7756 9.62162C28.1046 10.7826 30.3616 13.9086 30.3616 17.5006V24.9996H29.6406V17.4996C29.6406 13.9476 27.2266 10.8956 23.7686 10.0756C23.6186 10.0396 23.5076 9.91263 23.4936 9.75963C23.4786 9.60563 23.5646 9.45963 23.7056 9.39663C25.2216 8.72163 26.2006 7.21562 26.2006 5.56063C26.2006 3.24463 24.3166 1.35963 22.0006 1.35963C19.6846 1.35963 17.8006 3.24363 17.8006 5.56063C17.8006 6.09663 17.8996 6.61663 18.0956 7.10863C19.7646 7.89763 20.9216 9.59663 20.9216 11.5606C20.9216 13.2006 20.1016 14.7146 18.7756 15.6216C22.1046 16.7836 24.3616 19.9116 24.3616 23.5086L24.3606 30.9996ZM19.2556 24.2546L18.7456 23.7446L15.0006 27.4906L13.2546 25.7446L12.7456 26.2546L15.0006 28.5086L19.2556 24.2546Z" fill="currentColor"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_531_61297">
+                      <rect width="32" height="32" fill="currentColor"></rect>
+                    </clippath>
+                  </defs>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 pink">NocoDB is A Community Driven Open Source Product</h2>
+            <h3 class="reason-h12 text-colour-white">Dive into a world of community-driven innovation with NocoDB. Experience the power of collective intelligence as enthusiasts and experts come together to shape the no-code.</h3>
+          </div>
+          <div class="why-block purple">
+            <div style="-webkit-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(16px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="why-illustration">
+              <div class="w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.4894 27.0704C23.4627 27.0563 23.4414 27.0363 23.4241 26.9877L23.4194 26.9743L23.4135 26.9614L22.5648 25.0768L22.5104 24.9558L22.3894 24.9014L20.5049 24.0527L20.4919 24.0468L20.4786 24.0421C20.4299 24.0248 20.41 24.0034 20.3959 23.9768C20.3615 23.9121 20.3496 23.8578 20.3496 23.8103C20.3496 23.7627 20.3615 23.7084 20.3959 23.6437C20.41 23.6171 20.4299 23.5958 20.4786 23.5784L20.4919 23.5737L20.5049 23.5679L22.3894 22.7192L22.5104 22.6647L22.5648 22.5438L23.4135 20.6592L23.4194 20.6463L23.4241 20.6329C23.4415 20.5842 23.4628 20.5643 23.4894 20.5502C23.5542 20.5158 23.6085 20.5039 23.656 20.5039C23.7035 20.5039 23.7578 20.5158 23.8225 20.5502C23.8491 20.5643 23.8704 20.5842 23.8878 20.6329L23.8925 20.6463L23.8984 20.6592L24.7471 22.5438L24.8015 22.6647L24.9225 22.7192L26.807 23.5679L26.82 23.5737L26.8333 23.5784C26.882 23.5958 26.9019 23.6171 26.916 23.6437C26.9504 23.7084 26.9623 23.7627 26.9623 23.8103C26.9623 23.8578 26.9504 23.9121 26.916 23.9768C26.9019 24.0034 26.882 24.0248 26.8333 24.0421L26.82 24.0468L26.807 24.0527L24.9225 24.9014L24.8015 24.9558L24.7471 25.0768L23.8984 26.9614L23.8925 26.9743L23.8878 26.9877C23.8704 27.0364 23.8491 27.0562 23.8225 27.0703C23.7578 27.1047 23.7035 27.1166 23.656 27.1166C23.6085 27.1166 23.5542 27.1048 23.4894 27.0704Z" stroke="currentColor" stroke-width="0.7"></path>
+                  <path d="M23.4894 10.5665C23.4627 10.5524 23.4414 10.5324 23.4241 10.4838L23.4194 10.4704L23.4135 10.4575L22.5648 8.5729L22.5104 8.4519L22.3894 8.3975L20.5049 7.5488L20.4919 7.5429L20.4786 7.5382C20.4299 7.5209 20.41 7.4995 20.3959 7.4729C20.3615 7.4082 20.3496 7.3539 20.3496 7.3064C20.3496 7.2588 20.3615 7.2045 20.3959 7.1398C20.41 7.1132 20.4299 7.0919 20.4786 7.0745L20.4919 7.0698L20.5049 7.064L22.3894 6.2153L22.5104 6.1608L22.5648 6.0399L23.4135 4.1553L23.4194 4.1424L23.4241 4.129C23.4415 4.0803 23.4628 4.0604 23.4894 4.0463C23.5542 4.0119 23.6085 4 23.656 4C23.7035 4 23.7578 4.0119 23.8225 4.0463C23.8491 4.0604 23.8704 4.0803 23.8878 4.129L23.8925 4.1424L23.8984 4.1553L24.7471 6.0399L24.8015 6.1608L24.9225 6.2153L26.807 7.064L26.82 7.0698L26.8333 7.0745C26.882 7.0919 26.9019 7.1132 26.916 7.1398C26.9504 7.2045 26.9623 7.2588 26.9623 7.3064C26.9623 7.3539 26.9504 7.4082 26.916 7.4729C26.9019 7.4995 26.882 7.5209 26.8333 7.5382L26.82 7.5429L26.807 7.5488L24.9225 8.3975L24.8015 8.4519L24.7471 8.5729L23.8984 10.4575L23.8925 10.4704L23.8878 10.4838C23.8704 10.5325 23.8491 10.5523 23.8225 10.5664C23.7578 10.6008 23.7035 10.6127 23.656 10.6127C23.6085 10.6127 23.5542 10.6009 23.4894 10.5665Z" stroke="currentColor" stroke-width="0.7"></path>
+                  <path d="M10.6774 23.1406C10.7415 23.3204 10.8437 23.4364 10.9853 23.5116C11.165 23.6071 11.3353 23.6496 11.4996 23.6496C11.6639 23.6496 11.8341 23.6072 12.0139 23.5117C12.1555 23.4365 12.2577 23.3204 12.3218 23.1406L12.3265 23.1272L12.3323 23.1143L14.0732 19.2486L14.1277 19.1276L14.2486 19.0732L18.1143 17.3323L18.1272 17.3265L18.1406 17.3217C18.3204 17.2577 18.4365 17.1555 18.5117 17.0138C18.6072 16.8341 18.6496 16.6639 18.6496 16.4996C18.6496 16.3353 18.6072 16.1651 18.5117 15.9854C18.4364 15.8438 18.2941 15.7309 18.1143 15.6669L14.2486 13.926L14.1277 13.8716M10.6774 23.1406L8.926 19.2486L8.87153 19.1276M10.6774 23.1406L8.87153 19.1276M8.87153 19.1276L8.75059 19.0732M8.75059 19.0732L4.88491 17.3323L4.87199 17.3265M8.75059 19.0732L4.87199 17.3265M4.87199 17.3265L4.85863 17.3217M4.85863 17.3217C4.67878 17.2577 4.56277 17.1555 4.48751 17.0139M4.85863 17.3217L4.48751 17.0139M4.48751 17.0139C4.39205 16.8342 4.34961 16.6639 4.34961 16.4996C4.34961 16.3353 4.39205 16.165 4.48751 15.9853M4.48751 17.0139V15.9853M4.87199 15.6727L4.85863 15.6775C4.67877 15.7415 4.56276 15.8437 4.48751 15.9853M4.87199 15.6727L4.48751 15.9853M4.87199 15.6727L4.88491 15.6669M4.88491 15.6669L8.75059 13.926L8.87153 13.8716M4.88491 15.6669L8.87153 13.8716M8.87153 13.8716L8.926 13.7506M8.926 13.7506L10.6669 9.88498L10.6727 9.87205M8.926 13.7506L10.6727 9.87205M10.6727 9.87205L10.6774 9.85868M10.6774 9.85868C10.7415 9.67879 10.8437 9.5628 10.9853 9.48759M10.6774 9.85868L10.9853 9.48759M10.9853 9.48759C11.165 9.39208 11.3353 9.34961 11.4996 9.34961C11.6639 9.34961 11.8341 9.39204 12.0139 9.48755M10.9853 9.48759L12.0139 9.48755M12.0139 9.48755C12.1555 9.56275 12.2577 9.67876 12.3217 9.85868L12.3265 9.87205M12.0139 9.48755L12.3265 9.87205M12.3265 9.87205L12.3323 9.88498M12.3323 9.88498L14.0732 13.7506L14.1277 13.8716M12.3323 9.88498L14.1277 13.8716" stroke="currentColor" stroke-width="0.7"></path>
+                </svg></div>
+            </div>
+            <h2 class="reason-h1 purple">NocoDB Is The New No-Code Paradigm</h2>
+            <h3 class="reason-h12 text-colour-white">Embrace a new paradigm in no-code that helps businesses to solve all their no-code needs while owning all of their data. NocoDB scales with  Organisation&#x27;s needs of all sizes! </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-stats-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1">Open Source Advantage</h1>
+          <h2 class="section-h2">Join a community driven solution that has millions of downloads and used by thousands of organisations.</h2>
+        </div>
+        <div class="stats-grid">
+          <a data-event="site/a:stats-section:docker" href="https://hub.docker.com/r/nocodb/nocodb" target="_blank" class="stats-item w-inline-block">
+            <div class="w-layout-hflex h-flex-12gap">
+              <h3 class="stats-head">Docker Downloads</h3><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/docker-icon-logo.svg" loading="eager" alt="Docker Logo" class="community-logo">
+            </div>
+            <div class="stat-number">9.5 Million+</div>
+          </a>
+          <a data-event="site/a:stats-section:github" href="https://github.com/nocodb/nocodb" target="_blank" class="stats-item w-inline-block">
+            <div class="w-layout-hflex h-flex-12gap">
+              <h3 class="stats-head">Github Stars</h3><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/github.svg" loading="eager" alt="Docker logo" class="community-logo">
+            </div>
+            <div class="stat-number">38,400+</div>
+          </a>
+          <a data-event="site/a:stats-section:discord" href="https://discord.gg/8kdGJwPAe3" target="_blank" class="stats-item w-inline-block">
+            <div class="w-layout-hflex h-flex-12gap">
+              <h3 class="stats-head">Community Members</h3><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Discord-logo.svg" loading="eager" alt="Discord logo" class="community-logo">
+            </div>
+            <div class="stat-number">5,200+</div>
+          </a>
+          <a data-event="site/a:stats-section:ranking" href="https://github.com/topics/no-code" target="_blank" class="stats-item w-inline-block">
+            <div class="w-layout-hflex h-flex-12gap">
+              <h3 class="stats-head">Open Source No-Code </h3><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/github.svg" loading="eager" alt="Github logo" class="community-logo">
+            </div>
+            <div class="stat-number">In Top 3</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="bis-features-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="w-layout-hflex v-flex-heading">
+          <h1 class="section-h1">Features Overview </h1>
+          <h2 class="section-h2">Dive deep into our platform to uncover its powerful capabilities. </h2>
+        </div>
+        <div class="tab-block-features">
+          <div class="w-layout-hflex tag-head">
+            <h2 class="section-h4-tab">Data Integration and Connectivity</h2>
+            <h2 class="section-h4-tab">Collaboration</h2>
+            <h2 class="section-h4-tab">Schema Management</h2>
+            <h2 class="section-h4-tab">Table Operations</h2>
+            <h2 class="section-h4-tab">Integrations and Automations</h2>
+            <h2 class="section-h4-tab">Quick Actions</h2>
+          </div>
+          <div data-current="Connect External DB" data-easing="ease" data-duration-in="500" data-duration-out="100" class="tabs-features w-tabs">
+            <div class="tab-menus-features w-tab-menu">
+              <a data-w-tab="Connect External DB" data-event="site/a:features-section:tab:connect-external-db" class="tab-button-feature w-inline-block w-tab-link w--current">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 8C14 9.10667 11.3333 10 8 10C4.66667 10 2 9.10667 2 8" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                      <path d="M8 5.3335C11.3137 5.3335 14 4.43807 14 3.3335C14 2.22893 11.3137 1.3335 8 1.3335C4.68629 1.3335 2 2.22893 2 3.3335C2 4.43807 4.68629 5.3335 8 5.3335Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                      <path d="M2 3.3335V12.6668C2 13.7735 4.66667 14.6668 8 14.6668C11.3333 14.6668 14 13.7735 14 12.6668V3.3335" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Connect external DB</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Import" data-event="site/a:features-section:tab:import" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_241_280)">
+                        <path d="M5.33333 11.3335L7.99999 14.0002L10.6667 11.3335" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                        <path d="M8 8V14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                        <path d="M13.92 12.06C14.4996 11.6524 14.9342 11.0707 15.1608 10.3994C15.3874 9.72805 15.3942 9.00197 15.1802 8.32651C14.9662 7.65104 14.5425 7.06135 13.9707 6.643C13.3988 6.22464 12.7085 5.9994 12 5.99996H11.16C10.9594 5.21854 10.5843 4.49279 10.0627 3.87734C9.54112 3.2619 8.88672 2.7728 8.14876 2.44686C7.4108 2.12092 6.60852 1.96664 5.80231 1.99563C4.99609 2.02463 4.20696 2.23614 3.49432 2.61424C2.78168 2.99234 2.16411 3.52719 1.68808 4.17851C1.21206 4.82983 0.88999 5.58065 0.746129 6.37446C0.602269 7.16826 0.640362 7.98435 0.857542 8.7613C1.07472 9.53825 1.46533 10.2558 1.99996 10.86" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_241_280">
+                          <rect width="16" height="16" fill="white"></rect>
+                        </clippath>
+                      </defs>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Import</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Invite Team" data-event="site/a:features-section:tab:invite-team" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.3333 14.0002V12.6669C15.3329 12.0761 15.1362 11.5021 14.7743 11.0351C14.4123 10.5682 13.9054 10.2346 13.3333 10.0869" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                      <path d="M11.3333 14V12.6667C11.3333 11.9594 11.0524 11.2811 10.5523 10.781C10.0522 10.281 9.3739 10 8.66666 10H3.33332C2.62608 10 1.9478 10.281 1.44771 10.781C0.947608 11.2811 0.666656 11.9594 0.666656 12.6667V14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                      <path d="M10.6667 2.08691C11.2403 2.23378 11.7487 2.56738 12.1117 3.03512C12.4748 3.50286 12.6719 4.07813 12.6719 4.67025C12.6719 5.26236 12.4748 5.83763 12.1117 6.30537C11.7487 6.77311 11.2403 7.10671 10.6667 7.25358" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                      <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="text-block-2">Invite Team</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Share Project" data-event="site/a:features-section:tab:share-project" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88561 10.781C9.38551 10.281 8.70723 10 7.99999 10H3.33332C2.62608 10 1.9478 10.281 1.44771 10.781C0.947608 11.2811 0.666656 11.9594 0.666656 12.6667V14" style="stroke: currentColor;" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                      <path d="M13.3333 5.3335V9.3335" style="stroke: currentColor;" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M15.3333 7.3335H11.3333" style="stroke: currentColor;" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M5.66667 7.33333C7.13943 7.33333 8.33333 6.13943 8.33333 4.66667C8.33333 3.19391 7.13943 2 5.66667 2C4.19391 2 3 3.19391 3 4.66667C3 6.13943 4.19391 7.33333 5.66667 7.33333Z" style="stroke: currentColor;" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Share Project</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="ERD" data-event="site/a:features-section:tab:multi-field" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.33301 12H13.9997" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M2 12H2.00667" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M5.33301 8H13.9997" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M2 8H2.00667" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M5.33301 4H13.9997" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M2 4H2.00667" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Multi Fields Edit</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Multi Field Edit" data-event="site/a:features-section:tab:erd" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <mask id="mask0_993_33304" style="mask-type:alpha" maskunits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+                        <rect x="0.5" y="0.5" width="15" height="15" fill="currentColor" stroke="currentColor"></rect>
+                      </mask>
+                      <g mask="url(#mask0_993_33304)">
+                        <path d="M10.1271 11.8334V11.823H10.1167H8.5333C8.24514 11.823 7.99726 11.7191 7.78911 11.5109C7.58096 11.3028 7.47708 11.0549 7.47708 10.7667V5.21672V5.2063H7.46666H5.8833H5.87288V5.21672V6.13341C5.87288 6.42157 5.76899 6.66945 5.56085 6.8776C5.3527 7.08575 5.10481 7.18963 4.81666 7.18963H2.5833C2.29514 7.18963 2.04726 7.08575 1.83911 6.8776C1.63096 6.66945 1.52708 6.42157 1.52708 6.13341V3.23338C1.52708 2.94523 1.63096 2.69735 1.83911 2.4892C2.04726 2.28105 2.29514 2.17716 2.5833 2.17716H4.81666C5.10481 2.17716 5.3527 2.28105 5.56085 2.4892C5.76899 2.69735 5.87288 2.94523 5.87288 3.23338V4.15008V4.1605H5.8833H10.1167H10.1271V4.15008V3.23338C10.1271 2.94523 10.231 2.69735 10.4391 2.4892C10.6473 2.28105 10.8951 2.17716 11.1833 2.17716H13.4167C13.7048 2.17716 13.9527 2.28105 14.1608 2.4892C14.369 2.69735 14.4729 2.94523 14.4729 3.23338V6.13341C14.4729 6.42157 14.369 6.66945 14.1608 6.8776C13.9527 7.08575 13.7048 7.18963 13.4167 7.18963H11.1833C10.8951 7.18963 10.6473 7.08575 10.4391 6.8776C10.231 6.66945 10.1271 6.42157 10.1271 6.13341V5.21672V5.2063H10.1167H8.5333H8.52288V5.21672V10.7667V10.7772H8.5333H10.1167H10.1271V10.7667V9.85005C10.1271 9.5619 10.231 9.31401 10.4391 9.10586C10.6473 8.89772 10.8951 8.79383 11.1833 8.79383H13.4167C13.7048 8.79383 13.9527 8.89772 14.1608 9.10586C14.369 9.31401 14.4729 9.5619 14.4729 9.85005V12.7667C14.4729 13.0549 14.369 13.3028 14.1608 13.5109C13.9527 13.7191 13.7048 13.823 13.4167 13.823H11.1833C10.8951 13.823 10.6473 13.7191 10.4391 13.5109C10.231 13.3028 10.1271 13.0549 10.1271 12.7667V11.8334ZM11.1729 6.13341V6.14383H11.1833H13.4167H13.4271V6.13341V3.23338V3.22297H13.4167H11.1833H11.1729V3.23338V6.13341ZM11.1729 12.7667V12.7772H11.1833H13.4167H13.4271V12.7667V9.85005V9.83963H13.4167H11.1833H11.1729V9.85005V12.7667ZM2.57288 6.13341V6.14383H2.5833H4.81666H4.82708V6.13341V3.23338V3.22297H4.81666H2.5833H2.57288V3.23338V6.13341Z" fill="currentColor" stroke="currentColor" stroke-width="0.0208333"></path>
+                      </g>
+                    </svg></div>
+                  <div class="tab-menu-features-text">ERD</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Filter" data-event="site/a:features-section:tab:filter" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6667 2H1.33334L6.66668 8.30667V12.6667L9.33334 14V8.30667L14.6667 2Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Filter</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Sort" data-event="site/a:features-section:tab:sort" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 13.3332V10.6665" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      <path d="M8 13.3332V6.6665" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      <path d="M12 13.3332V2.6665" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Sort</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Group By" data-event="site/a:features-section:tab:group-by" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 5.3335V14.0002H2V5.3335" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      <path d="M6.66667 8H9.33334" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      <path d="M15.3333 2H0.666672V5.33333H15.3333V2Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Group By</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="APIs" data-event="site/a:features-section:tab:api" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.6667 12L14.6667 8L10.6667 4" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      <path d="M5.33334 4L1.33334 8L5.33334 12" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                    </svg></div>
+                  <div class="tab-menu-features-text">APIs</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Web-hooks" data-event="site/a:features-section:tab:web-hooks" class="tab-button-feature w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1705_10823)">
+                        <path d="M1.84029 9.3103C1.32112 9.83447 1 10.5586 1 11.3585C1 12.9582 2.28447 14.255 3.86894 14.255C5.45341 14.255 6.73787 12.9582 6.73787 11.3585L12.2708 11.3793" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                        <path d="M11.3384 14.2654C12.0476 14.4572 12.8293 14.3759 13.5154 13.976C14.8876 13.1762 15.3577 11.4047 14.5655 10.0193C13.7733 8.63383 12.0187 8.15916 10.6465 8.95901L7.89783 4.11084" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                        <path d="M10.8261 3.20704C10.636 2.49101 10.1755 1.84817 9.48937 1.44824C8.11718 0.648381 6.36256 1.12305 5.57033 2.50845C4.77809 3.89384 5.24824 5.66534 6.62043 6.46519L3.83612 11.2925" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" style="stroke: currentColor;"></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_1705_10823">
+                          <rect width="16" height="16" fill="none"></rect>
+                        </clippath>
+                      </defs>
+                    </svg></div>
+                  <div class="tab-menu-features-text">Web-hooks</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Cmd+J" data-event="site/a:features-section:tab:cmd-j" class="tab-button-feature cmd-icon w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon keyboard w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" fill="#F4F4F5"></rect>
+                      <path d="M8.84118 17.2287C8.44676 17.2287 8.08549 17.1326 7.75737 16.9403C7.42924 16.7448 7.16741 16.483 6.97186 16.1548C6.77962 15.8267 6.68351 15.4654 6.68351 15.071C6.68351 14.6733 6.77962 14.3104 6.97186 13.9822C7.16741 13.6541 7.42924 13.3923 7.75737 13.1967C8.08549 13.0012 8.44676 12.9034 8.84118 12.9034H9.99458V10.9048H8.84118C8.44676 10.9048 8.08549 10.8087 7.75737 10.6165C7.42924 10.4209 7.16741 10.1607 6.97186 9.83594C6.77962 9.50781 6.68351 9.14489 6.68351 8.74716C6.68351 8.34943 6.77962 7.98816 6.97186 7.66335C7.16741 7.33523 7.42924 7.07505 7.75737 6.88281C8.08549 6.68726 8.44676 6.58949 8.84118 6.58949C9.2389 6.58949 9.60183 6.68726 9.92995 6.88281C10.2581 7.07505 10.5199 7.33523 10.7155 7.66335C10.911 7.98816 11.0088 8.34943 11.0088 8.74716V9.89062H13.0074V8.74716C13.0074 8.34943 13.1035 7.98816 13.2957 7.66335C13.4913 7.33523 13.7515 7.07505 14.0763 6.88281C14.4044 6.68726 14.7673 6.58949 15.165 6.58949C15.5628 6.58949 15.924 6.68726 16.2488 6.88281C16.577 7.07505 16.8372 7.33523 17.0294 7.66335C17.2249 7.98816 17.3227 8.34943 17.3227 8.74716C17.3227 9.14489 17.2249 9.50781 17.0294 9.83594C16.8372 10.1607 16.577 10.4209 16.2488 10.6165C15.924 10.8087 15.5628 10.9048 15.165 10.9048H14.0216V12.9034H15.165C15.5628 12.9034 15.924 13.0012 16.2488 13.1967C16.577 13.3923 16.8372 13.6541 17.0294 13.9822C17.2249 14.3104 17.3227 14.6733 17.3227 15.071C17.3227 15.4654 17.2249 15.8267 17.0294 16.1548C16.8372 16.483 16.577 16.7448 16.2488 16.9403C15.924 17.1326 15.5628 17.2287 15.165 17.2287C14.7673 17.2287 14.4044 17.1326 14.0763 16.9403C13.7515 16.7448 13.4913 16.483 13.2957 16.1548C13.1035 15.8267 13.0074 15.4654 13.0074 15.071V13.9176H11.0088V15.071C11.0088 15.4654 10.911 15.8267 10.7155 16.1548C10.5199 16.483 10.2581 16.7448 9.92995 16.9403C9.60183 17.1326 9.2389 17.2287 8.84118 17.2287ZM8.84118 16.2145C9.0533 16.2145 9.24553 16.1631 9.41788 16.0604C9.59354 15.9576 9.73275 15.8201 9.83549 15.6477C9.94155 15.4721 9.99458 15.2798 9.99458 15.071V13.9176H8.84118C8.63237 13.9176 8.44013 13.9706 8.26447 14.0767C8.09212 14.1795 7.95458 14.3187 7.85183 14.4943C7.74908 14.6667 7.69771 14.8589 7.69771 15.071C7.69771 15.2798 7.74908 15.4721 7.85183 15.6477C7.95458 15.8201 8.09212 15.9576 8.26447 16.0604C8.44013 16.1631 8.63237 16.2145 8.84118 16.2145ZM8.84118 9.89062H9.99458V8.74716C9.99458 8.53504 9.94155 8.3428 9.83549 8.17045C9.73275 7.99811 9.59354 7.86056 9.41788 7.75781C9.24553 7.65507 9.0533 7.60369 8.84118 7.60369C8.63237 7.60369 8.44013 7.65507 8.26447 7.75781C8.09212 7.86056 7.95458 7.99811 7.85183 8.17045C7.74908 8.3428 7.69771 8.53504 7.69771 8.74716C7.69771 8.95928 7.74908 9.15317 7.85183 9.32883C7.95458 9.50118 8.09212 9.63873 8.26447 9.74148C8.44013 9.84091 8.63237 9.89062 8.84118 9.89062ZM14.0216 9.89062H15.165C15.3772 9.89062 15.5694 9.84091 15.7417 9.74148C15.9141 9.63873 16.0516 9.50118 16.1544 9.32883C16.2571 9.15317 16.3085 8.95928 16.3085 8.74716C16.3085 8.53504 16.2571 8.3428 16.1544 8.17045C16.0516 7.99811 15.9141 7.86056 15.7417 7.75781C15.5694 7.65507 15.3772 7.60369 15.165 7.60369C14.9529 7.60369 14.759 7.65507 14.5834 7.75781C14.411 7.86056 14.2735 7.99811 14.1707 8.17045C14.0713 8.3428 14.0216 8.53504 14.0216 8.74716V9.89062ZM15.165 16.2145C15.3772 16.2145 15.5694 16.1631 15.7417 16.0604C15.9141 15.9576 16.0516 15.8201 16.1544 15.6477C16.2571 15.4721 16.3085 15.2798 16.3085 15.071C16.3085 14.8589 16.2571 14.6667 16.1544 14.4943C16.0516 14.3187 15.9141 14.1795 15.7417 14.0767C15.5694 13.9706 15.3772 13.9176 15.165 13.9176H14.0216V15.071C14.0216 15.2798 14.0713 15.4721 14.1707 15.6477C14.2735 15.8201 14.411 15.9576 14.5834 16.0604C14.759 16.1631 14.9529 16.2145 15.165 16.2145ZM11.0088 12.9034H13.0074V10.9048H11.0088V12.9034Z" fill="#374151"></path>
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="#D5D5D9"></rect>
+                    </svg></div>
+                  <div class="text-block-2">Cmd+J</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Cmd+K" data-event="site/a:features-section:tab:cmd-k" class="tab-button-feature cmd-icon w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon keyboard w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" fill="#F4F4F5"></rect>
+                      <path d="M8.84118 17.2287C8.44676 17.2287 8.08549 17.1326 7.75737 16.9403C7.42924 16.7448 7.16741 16.483 6.97186 16.1548C6.77962 15.8267 6.68351 15.4654 6.68351 15.071C6.68351 14.6733 6.77962 14.3104 6.97186 13.9822C7.16741 13.6541 7.42924 13.3923 7.75737 13.1967C8.08549 13.0012 8.44676 12.9034 8.84118 12.9034H9.99458V10.9048H8.84118C8.44676 10.9048 8.08549 10.8087 7.75737 10.6165C7.42924 10.4209 7.16741 10.1607 6.97186 9.83594C6.77962 9.50781 6.68351 9.14489 6.68351 8.74716C6.68351 8.34943 6.77962 7.98816 6.97186 7.66335C7.16741 7.33523 7.42924 7.07505 7.75737 6.88281C8.08549 6.68726 8.44676 6.58949 8.84118 6.58949C9.2389 6.58949 9.60183 6.68726 9.92995 6.88281C10.2581 7.07505 10.5199 7.33523 10.7155 7.66335C10.911 7.98816 11.0088 8.34943 11.0088 8.74716V9.89062H13.0074V8.74716C13.0074 8.34943 13.1035 7.98816 13.2957 7.66335C13.4913 7.33523 13.7515 7.07505 14.0763 6.88281C14.4044 6.68726 14.7673 6.58949 15.165 6.58949C15.5628 6.58949 15.924 6.68726 16.2488 6.88281C16.577 7.07505 16.8372 7.33523 17.0294 7.66335C17.2249 7.98816 17.3227 8.34943 17.3227 8.74716C17.3227 9.14489 17.2249 9.50781 17.0294 9.83594C16.8372 10.1607 16.577 10.4209 16.2488 10.6165C15.924 10.8087 15.5628 10.9048 15.165 10.9048H14.0216V12.9034H15.165C15.5628 12.9034 15.924 13.0012 16.2488 13.1967C16.577 13.3923 16.8372 13.6541 17.0294 13.9822C17.2249 14.3104 17.3227 14.6733 17.3227 15.071C17.3227 15.4654 17.2249 15.8267 17.0294 16.1548C16.8372 16.483 16.577 16.7448 16.2488 16.9403C15.924 17.1326 15.5628 17.2287 15.165 17.2287C14.7673 17.2287 14.4044 17.1326 14.0763 16.9403C13.7515 16.7448 13.4913 16.483 13.2957 16.1548C13.1035 15.8267 13.0074 15.4654 13.0074 15.071V13.9176H11.0088V15.071C11.0088 15.4654 10.911 15.8267 10.7155 16.1548C10.5199 16.483 10.2581 16.7448 9.92995 16.9403C9.60183 17.1326 9.2389 17.2287 8.84118 17.2287ZM8.84118 16.2145C9.0533 16.2145 9.24553 16.1631 9.41788 16.0604C9.59354 15.9576 9.73275 15.8201 9.83549 15.6477C9.94155 15.4721 9.99458 15.2798 9.99458 15.071V13.9176H8.84118C8.63237 13.9176 8.44013 13.9706 8.26447 14.0767C8.09212 14.1795 7.95458 14.3187 7.85183 14.4943C7.74908 14.6667 7.69771 14.8589 7.69771 15.071C7.69771 15.2798 7.74908 15.4721 7.85183 15.6477C7.95458 15.8201 8.09212 15.9576 8.26447 16.0604C8.44013 16.1631 8.63237 16.2145 8.84118 16.2145ZM8.84118 9.89062H9.99458V8.74716C9.99458 8.53504 9.94155 8.3428 9.83549 8.17045C9.73275 7.99811 9.59354 7.86056 9.41788 7.75781C9.24553 7.65507 9.0533 7.60369 8.84118 7.60369C8.63237 7.60369 8.44013 7.65507 8.26447 7.75781C8.09212 7.86056 7.95458 7.99811 7.85183 8.17045C7.74908 8.3428 7.69771 8.53504 7.69771 8.74716C7.69771 8.95928 7.74908 9.15317 7.85183 9.32883C7.95458 9.50118 8.09212 9.63873 8.26447 9.74148C8.44013 9.84091 8.63237 9.89062 8.84118 9.89062ZM14.0216 9.89062H15.165C15.3772 9.89062 15.5694 9.84091 15.7417 9.74148C15.9141 9.63873 16.0516 9.50118 16.1544 9.32883C16.2571 9.15317 16.3085 8.95928 16.3085 8.74716C16.3085 8.53504 16.2571 8.3428 16.1544 8.17045C16.0516 7.99811 15.9141 7.86056 15.7417 7.75781C15.5694 7.65507 15.3772 7.60369 15.165 7.60369C14.9529 7.60369 14.759 7.65507 14.5834 7.75781C14.411 7.86056 14.2735 7.99811 14.1707 8.17045C14.0713 8.3428 14.0216 8.53504 14.0216 8.74716V9.89062ZM15.165 16.2145C15.3772 16.2145 15.5694 16.1631 15.7417 16.0604C15.9141 15.9576 16.0516 15.8201 16.1544 15.6477C16.2571 15.4721 16.3085 15.2798 16.3085 15.071C16.3085 14.8589 16.2571 14.6667 16.1544 14.4943C16.0516 14.3187 15.9141 14.1795 15.7417 14.0767C15.5694 13.9706 15.3772 13.9176 15.165 13.9176H14.0216V15.071C14.0216 15.2798 14.0713 15.4721 14.1707 15.6477C14.2735 15.8201 14.411 15.9576 14.5834 16.0604C14.759 16.1631 14.9529 16.2145 15.165 16.2145ZM11.0088 12.9034H13.0074V10.9048H11.0088V12.9034Z" fill="#374151"></path>
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="#D5D5D9"></rect>
+                    </svg></div>
+                  <div class="text-block-2">Cmd+K</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+              <a data-w-tab="Cmd+L" data-event="site/a:features-section:tab:cmd-l" class="tab-button-feature cmd-icon w-inline-block w-tab-link">
+                <div class="w-layout-vflex h-flex-8gap">
+                  <div class="tab-icon keyboard w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" fill="#F4F4F5"></rect>
+                      <path d="M8.84118 17.2287C8.44676 17.2287 8.08549 17.1326 7.75737 16.9403C7.42924 16.7448 7.16741 16.483 6.97186 16.1548C6.77962 15.8267 6.68351 15.4654 6.68351 15.071C6.68351 14.6733 6.77962 14.3104 6.97186 13.9822C7.16741 13.6541 7.42924 13.3923 7.75737 13.1967C8.08549 13.0012 8.44676 12.9034 8.84118 12.9034H9.99458V10.9048H8.84118C8.44676 10.9048 8.08549 10.8087 7.75737 10.6165C7.42924 10.4209 7.16741 10.1607 6.97186 9.83594C6.77962 9.50781 6.68351 9.14489 6.68351 8.74716C6.68351 8.34943 6.77962 7.98816 6.97186 7.66335C7.16741 7.33523 7.42924 7.07505 7.75737 6.88281C8.08549 6.68726 8.44676 6.58949 8.84118 6.58949C9.2389 6.58949 9.60183 6.68726 9.92995 6.88281C10.2581 7.07505 10.5199 7.33523 10.7155 7.66335C10.911 7.98816 11.0088 8.34943 11.0088 8.74716V9.89062H13.0074V8.74716C13.0074 8.34943 13.1035 7.98816 13.2957 7.66335C13.4913 7.33523 13.7515 7.07505 14.0763 6.88281C14.4044 6.68726 14.7673 6.58949 15.165 6.58949C15.5628 6.58949 15.924 6.68726 16.2488 6.88281C16.577 7.07505 16.8372 7.33523 17.0294 7.66335C17.2249 7.98816 17.3227 8.34943 17.3227 8.74716C17.3227 9.14489 17.2249 9.50781 17.0294 9.83594C16.8372 10.1607 16.577 10.4209 16.2488 10.6165C15.924 10.8087 15.5628 10.9048 15.165 10.9048H14.0216V12.9034H15.165C15.5628 12.9034 15.924 13.0012 16.2488 13.1967C16.577 13.3923 16.8372 13.6541 17.0294 13.9822C17.2249 14.3104 17.3227 14.6733 17.3227 15.071C17.3227 15.4654 17.2249 15.8267 17.0294 16.1548C16.8372 16.483 16.577 16.7448 16.2488 16.9403C15.924 17.1326 15.5628 17.2287 15.165 17.2287C14.7673 17.2287 14.4044 17.1326 14.0763 16.9403C13.7515 16.7448 13.4913 16.483 13.2957 16.1548C13.1035 15.8267 13.0074 15.4654 13.0074 15.071V13.9176H11.0088V15.071C11.0088 15.4654 10.911 15.8267 10.7155 16.1548C10.5199 16.483 10.2581 16.7448 9.92995 16.9403C9.60183 17.1326 9.2389 17.2287 8.84118 17.2287ZM8.84118 16.2145C9.0533 16.2145 9.24553 16.1631 9.41788 16.0604C9.59354 15.9576 9.73275 15.8201 9.83549 15.6477C9.94155 15.4721 9.99458 15.2798 9.99458 15.071V13.9176H8.84118C8.63237 13.9176 8.44013 13.9706 8.26447 14.0767C8.09212 14.1795 7.95458 14.3187 7.85183 14.4943C7.74908 14.6667 7.69771 14.8589 7.69771 15.071C7.69771 15.2798 7.74908 15.4721 7.85183 15.6477C7.95458 15.8201 8.09212 15.9576 8.26447 16.0604C8.44013 16.1631 8.63237 16.2145 8.84118 16.2145ZM8.84118 9.89062H9.99458V8.74716C9.99458 8.53504 9.94155 8.3428 9.83549 8.17045C9.73275 7.99811 9.59354 7.86056 9.41788 7.75781C9.24553 7.65507 9.0533 7.60369 8.84118 7.60369C8.63237 7.60369 8.44013 7.65507 8.26447 7.75781C8.09212 7.86056 7.95458 7.99811 7.85183 8.17045C7.74908 8.3428 7.69771 8.53504 7.69771 8.74716C7.69771 8.95928 7.74908 9.15317 7.85183 9.32883C7.95458 9.50118 8.09212 9.63873 8.26447 9.74148C8.44013 9.84091 8.63237 9.89062 8.84118 9.89062ZM14.0216 9.89062H15.165C15.3772 9.89062 15.5694 9.84091 15.7417 9.74148C15.9141 9.63873 16.0516 9.50118 16.1544 9.32883C16.2571 9.15317 16.3085 8.95928 16.3085 8.74716C16.3085 8.53504 16.2571 8.3428 16.1544 8.17045C16.0516 7.99811 15.9141 7.86056 15.7417 7.75781C15.5694 7.65507 15.3772 7.60369 15.165 7.60369C14.9529 7.60369 14.759 7.65507 14.5834 7.75781C14.411 7.86056 14.2735 7.99811 14.1707 8.17045C14.0713 8.3428 14.0216 8.53504 14.0216 8.74716V9.89062ZM15.165 16.2145C15.3772 16.2145 15.5694 16.1631 15.7417 16.0604C15.9141 15.9576 16.0516 15.8201 16.1544 15.6477C16.2571 15.4721 16.3085 15.2798 16.3085 15.071C16.3085 14.8589 16.2571 14.6667 16.1544 14.4943C16.0516 14.3187 15.9141 14.1795 15.7417 14.0767C15.5694 13.9706 15.3772 13.9176 15.165 13.9176H14.0216V15.071C14.0216 15.2798 14.0713 15.4721 14.1707 15.6477C14.2735 15.8201 14.411 15.9576 14.5834 16.0604C14.759 16.1631 14.9529 16.2145 15.165 16.2145ZM11.0088 12.9034H13.0074V10.9048H11.0088V12.9034Z" fill="#374151"></path>
+                      <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="#D5D5D9"></rect>
+                    </svg></div>
+                  <div class="text-block-2">Cmd+L</div>
+                </div>
+                <div class="feature-tab-loader"></div>
+              </a>
+            </div>
+            <div class="tabs-content-2 w-tab-content">
+              <div data-w-tab="Connect External DB" class="feature-tab data-integration w-tab-pane w--tab-active">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Connect External DataBases</h1>
+                  <h2 class="feature-tab-h2">Integrate external databases in minimal steps.</h2>
+                  <div class="feature-image external-db"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/data-sources/connect-to-data-source" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Import" class="feature-tab data-integration w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Import Data</h1>
+                  <h2 class="feature-tab-h2">Simplify data Import from Airtable, CSV, Excel, and more.</h2>
+                  <div class="feature-image import"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/bases/import-base-from-airtable" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Invite Team" class="feature-tab collaboration w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Invite Team</h1>
+                  <h2 class="feature-tab-h2">Collaborate on data with your team by your side.</h2>
+                  <div class="feature-image invite-team"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/workspaces/workspace-collaboration" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Share Project" class="feature-tab collaboration w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Share Project</h1>
+                  <h2 class="feature-tab-h2">Collaborate on projects, share Insights, and improve your productivity.</h2>
+                  <div class="feature-image share-project"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/bases/share-base" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="ERD" class="feature-tab schema-management w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Multi Fields Edit</h1>
+                  <h2 class="feature-tab-h2">Manage all your fields from a single page.</h2>
+                  <div class="feature-image fields-modall"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/https://noco-docs-v2.netlify.app/fields/multi-fields-editor" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Multi Field Edit" class="feature-tab schema-management w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">ERD Diagram</h1>
+                  <h2 class="feature-tab-h2">Easily Visualise Database Schema with ERD View</h2>
+                  <div class="feature-image expanded-record-view"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/table-details/table-details-overview" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Filter" class="feature-tab table-operations w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Filter Records</h1>
+                  <h2 class="feature-tab-h2">Easily filter and extract insights from your records.</h2>
+                  <div class="feature-image filter"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/table-operations/filter" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Sort" class="feature-tab table-operations w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Sort Records</h1>
+                  <h2 class="feature-tab-h2">Sort and arrange your data for clarity.</h2>
+                  <div class="feature-image sort"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/table-operations/sort" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Group By" class="feature-tab table-operations w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Group Records</h1>
+                  <h2 class="feature-tab-h2">Efficiently group and categorise information</h2>
+                  <div class="feature-image group"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/table-operations/group-by" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="APIs" class="feature-tab integrations w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1 dark-bg">APIs</h1>
+                  <h2 class="feature-tab-h2 dark-bg">Harness the power of APIs for seamless integration</h2>
+                  <div class="feature-image apis"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/table-details/table-details-overview#api-snippet" target="_blank" class="button-secondary grey-border small dark-bg w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Web-hooks" class="feature-tab integrations w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1 dark-bg">Web-hooks</h1>
+                  <h2 class="feature-tab-h2 dark-bg">Leverage webhooks to build custom automations and workflows.</h2>
+                  <div class="feature-image web-hooks"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/automation/webhook/webhook-overview" target="_blank" class="button-secondary grey-border small dark-bg w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Cmd+J" class="feature-tab quick-actions w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Cmd + J</h1>
+                  <h2 class="feature-tab-h2">Instantly refer documentation and resources with Cmd + L.</h2>
+                  <div class="feature-image cmd-j"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/getting-started/keyboard-shortcuts" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Cmd+K" class="feature-tab quick-actions w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Cmd + K</h1>
+                  <h2 class="feature-tab-h2">Jump to anywhere in your workspace with Quick Navigation.</h2>
+                  <div class="feature-image cmd-k"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/getting-started/keyboard-shortcuts" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div data-w-tab="Cmd+L" class="feature-tab quick-actions w-tab-pane">
+                <div class="feature-tab-content">
+                  <h1 class="feature-tab-h1">Cmd + L</h1>
+                  <h2 class="feature-tab-h2">Go to recent projects and boost your productivity.</h2>
+                  <div class="feature-image cmd-l"></div>
+                  <div class="div-block-3">
+                    <a href="http://docs.nocodb.com/getting-started/keyboard-shortcuts" target="_blank" class="button-secondary grey-border small w-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-layout-hflex h-flex-48gap">
+          <div class="tab-block-fields">
+            <div class="w-layout-hflex v-flex-heading">
+              <h1 class="section-h3">Craft Your Database With Ease</h1>
+              <h2 class="section-h4">Use our multi-field edit fields functionality to craft tables in one go. </h2>
+            </div><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table.webp" loading="eager" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 53vw, 56vw" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Column-manager-for-table.webp 2064w" alt="Fields Manager for Table Subscriptions" class="feature-shot">
+          </div>
+          <div class="tab-block-mobile">
+            <div class="w-layout-hflex v-flex-heading">
+              <h1 class="section-h3">Anytime, Anywhere</h1>
+              <h2 class="section-h4">Effortlessly view and edit your data anytime, anywhere, from your smartphone with our responsive view</h2>
+            </div><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Mobile-View.webp" loading="eager" sizes="(max-width: 479px) 85vw, 240px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Mobile-View-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Mobile-View-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Mobile-View.webp 1003w" alt="Mobile View of an expanded record" class="phone-shot">
+          </div>
+        </div>
+        <div class="w-layout-hflex h-flex-48gap">
+          <div class="scale-block reverse">
+            <div class="w-layout-hflex v-flex-heading no-bottom-margin">
+              <h1 class="section-h3">Scale to Millions of Rows!</h1>
+              <h2 class="section-h4">Simply use our hosted database or bring your own Posgres/MySQL. </h2>
+            </div>
+            <div class="div-block-2"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Scale.webp" loading="eager" sizes="(max-width: 767px) 100vw, (max-width: 991px) 84vw, (max-width: 2333px) 51vw, 1190px" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/Scale-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Scale-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Scale-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/Scale.webp 1190w" alt="A nocoDB project with more than 3 million records" class="image-3"></div>
+          </div>
+          <div class="tab-block-erd">
+            <div class="w-layout-hflex v-flex-heading _56-padding">
+              <h1 class="section-h3">Easy Schema Visualisation &amp; Control</h1>
+              <h2 class="section-h4">Gain Deep Insight into Your Database Structure with Our ERD View</h2>
+            </div>
+            <div data-event="a:scheema-section:erd" data-w-id="209345cf-6762-685b-e550-656f28da2036" class="image-hover-effect"><img class="erd-image" src="https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View.webp" width="848" alt="ERD View of an Aircraft, Airports Database" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.6, 1.6, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.6, 1.6, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.6, 1.6, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.6, 1.6, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 57vw, 58vw" data-w-id="209345cf-6762-685b-e550-656f28da2037" loading="eager" srcset="https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-500.png 500w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-800.png 800w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-1080.png 1080w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-1600.png 1600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-2000.png 2000w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-2600.png 2600w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View-p-3200.png 3200w, https://cdn.nocodb.com/marketing-site/20231030123020/images/ERD-View.webp 3836w"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter-section">
+      <div class="w-layout-blockcontainer container-standard w-container">
+        <div class="blue-banner-div">
+          <h1 class="section-h3 newsletter">Subscribe to our Newsletter</h1>
+          <h2 class="section-h2 on-fill">Watch out for feature updates, pricing changes, and more!</h2>
+          <div class="form-block w-form">
+            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="650a7aeba6c28976499496c0" data-wf-element-id="e17802a4-ca6a-9cc0-c9bd-8095e0c6ea4b"><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Type in your E-mail" data-event="site/a:newsletter-section:email-field" id="email" required=""><input type="submit" value="Submit" data-wait="Please wait..." data-event="site/a:newsletter-section:email-submit" class="button-secondary-form w-button"></form>
+            <div class="success-message w-form-done">
+              <div class="text-block-4">Thank you! Your submission has been received!</div>
+            </div>
+            <div class="error-message w-form-fail">
+              <div class="text-block-3">Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-light">
+      <div class="container">
+        <div class="footer-wrapper-two">
+          <div class="footer-block-two">
+            <div class="footer-title">Product</div>
+            <a data-event="site/a:footer:changelog" href="changelog" class="footer-link-two">Changelog</a>
+            <a data-event="site/a:footer:feature-request" href="https://github.com/orgs/nocodb/projects/7/views/10" class="footer-link-two">Feature Request</a>
+          </div>
+          <div class="footer-block-two">
+            <div class="footer-title">Resources</div>
+            <a data-event="site/a:footer:product-docs" href="http://docs.nocodb.com" class="footer-link-two">Product Docs</a>
+            <a data-event="site/a:footer:meta-api-docs" href="http://meta-apis-v2.nocodb.com/" target="_blank" class="footer-link-two">Meta APIs : v2</a>
+            <a data-event="site/a:footer:api-docs" href="http://data-apis-v2.nocodb.com/" target="_blank" class="footer-link-two">Data APIs : v2</a>
+            <a data-event="site/a:footer:api-docs" href="http://data-apis-v1.nocodb.com/" target="_blank" class="footer-link-two">Data APIs : <span>v1</span> <span class="greyed-out-text">(Deprecated)</span></a>
+            <a data-event="site/a:footer:api-docs" href="http://meta-apis-v1.nocodb.com/" target="_blank" class="footer-link-two">Meta Docs v1 <span class="greyed-out-text">(Deprecated)</span></a>
+          </div>
+          <div class="footer-block-two">
+            <div class="footer-title">Community</div>
+            <a data-event="site/a:footer:nocodb-forum" href="http://community.nocodb.com" target="_blank" class="footer-link-two">NocoDB Forum</a>
+            <a data-event="site/a:footer:youtube" href="https://github.com/nocodb/nocodb" target="_blank" class="footer-link-two">Github</a>
+            <a data-event="site/a:footer:reddit" href="https://www.reddit.com/r/NocoDB/" target="_blank" class="footer-link-two">Reddit</a>
+            <a data-event="site/a:footer:discord" href="https://discord.gg/c7GEYrvFtT" target="_blank" class="footer-link-two">Discord</a>
+            <a data-event="site/a:footer:twitter" href="https://twitter.com/nocodb?lang=en" target="_blank" class="footer-link-two">Twitter</a>
+            <a data-event="site/a:footer:youtube" href="https://www.youtube.com/channel/UCEnT8ZJfu2okT9D76wABCEA/videos?view=0" target="_blank" class="footer-link-two">Youtube</a>
+          </div>
+          <div class="footer-block-two">
+            <div class="footer-title">Company</div>
+            <a data-event="site/a:footer:about" href="about-us" class="footer-link-two">About</a>
+            <a data-event="site/a:footer:careers" href="https://wellfound.com/company/nocodb/jobs" target="_blank" class="footer-link-two">Careers</a>
+            <a data-event="site/a:footer:blog" href="http://blog.nocodb.com" target="_blank" class="footer-link-two">Blog</a>
+          </div>
+          <div id="w-node-_5cca5be6-f1d2-84ff-34b4-ecfa5447fbd5-5447fba8" class="footer-form w-form">
+            <form id="wf-form-Footer-Form" name="wf-form-Footer-Form" data-name="Footer Form" method="get" class="footer-form-container" data-wf-page-id="650a7aeba6c28976499496c0" data-wf-element-id="5cca5be6-f1d2-84ff-34b4-ecfa5447fbd6">
+              <a href="#" class="footer-brand w-inline-block"><img src="https://cdn.nocodb.com/marketing-site/20231030123020/images/Logo.svg" loading="lazy" alt="NocoDB Logo lockup"></a>
+              <div class="footer-form-block"><input type="email" class="text-field w-input" maxlength="256" name="Footer-Email-2" data-name="Footer Email 2" placeholder="Type in your email" data-event="site/a:footer:email-field" id="Footer-Email-2" required=""><input type="submit" value="Submit" data-wait="Please wait..." data-event="site/a:footer:email-submit" class="button-secondary grey-border w-button"></div>
+            </form>
+            <div class="success-message-2 w-form-done">
+              <div class="text-block-16">Thank you for Signing up for our newsletter!</div>
+            </div>
+            <div class="error-message-2 w-form-fail">
+              <div class="text-block-17">Oops! We couldn&#x27;t collect your mail ID!</div>
+            </div>
+            <div class="footer-sub-text">Stay informed on feature releases, product roadmap, support, and cloud offerings!</div>
+          </div>
+        </div>
+        <div class="footer-divider-two"></div>
+        <div class="footer-bottom">
+          <div class="footer-copyright">© 2023 NocoDB. Inc All rights reserved</div>
+          <div class="footer-social-block-two">
+            <a data-event="site/a:footer:privacy" href="privacy" class="footer-terms-links">Privacy</a>
+            <a data-event="site/a:footer:terms-of-service" href="terms-of-service" class="footer-terms-links">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=650a7aeba6c28976499496bb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.nocodb.com/marketing-site/20231030123020/js/webflow.js" type="text/javascript"></script>
+  <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_XIYhmt76mLGNt1iByEFoTEbsyuYeZ0o7Q5Ang4G7msr', { api_host: 'https://app.posthog.com',  session_recording: { enabled: true }, autocapture: false, capture_pageview: false, })
+</script>
+  <script type="module">
+  import {init, push} from 'https://unpkg.com/nc-analytics@0.0.6/dist/index.js';
+  const emitter = init();
+  (($) => {
+    let KEY = 'nc-t';
+    $(document).on('mousedown touchstart', 'a,[data-event],button', (event) => {
+      if(event.handled) return;
+      event.handled = true;
+      const eventName = $(event.target).data('event') || $(event.target).closest('[data-event]').data('event') || 'click';
+      push({
+        event: eventName,
+        $current_url: location.href,
+        hash: location.hash,
+        label: $(event.target).text(),
+        extra: $(event.target).data('props')
+      })
+      const el = $(event.target);
+      let link = el.is('a') ? el : el.closest('a');
+      if (link.length) {
+        if (link.attr('href').startsWith('#')) {
+          return;
+        }
+        localStorage.setItem(KEY, JSON.stringify(emitter.queue));
+      }
+    })
+    try {
+      const events = JSON.parse(localStorage.getItem(KEY));
+      for (const event of events) {
+        push(event)
+      }
+      localStorage.removeItem(KEY)
+    } catch {
+    }
+    push({
+      event: '$pageview',
+      $current_url: location.href,
+      hash: location.hash,
+      referrer: document.referrer,
+    })
+  })(jQuery)
+</script>
+  <script>
+  (function ($) {
+    $(document).ready(function () {
+      const cookieBanner = $('.ck-banner');
+      const consentStr = localStorage.getItem('cookieSeen');
+      if (!consentStr) {
+        cookieBanner.css({
+          'visibility': 'visible',
+          display: 'block !important'
+        }).hide().fadeIn(200);
+      } else {
+        const consent = JSON.parse(consentStr);
+        const now = new Date();
+        if (now.getTime() > consent.expiry) {
+          localStorage.removeItem('cookieSeen');
+          return null;
+        }
+      }
+      cookieBanner.find('.ck-button').click(function () {
+        const now = new Date();
+        const item = {
+          value: true,
+          expiry: now.getTime() + (1000 * 60 * 60 * 24 * 100),
+        };
+        localStorage.setItem('cookieSeen', JSON.stringify(item));
+        cookieBanner.fadeOut(200);
+      });
+    });
+  })(jQuery);
+</script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcdnI0oAAAAAHYW3hwztfZw9qAjX4TiviE4fWip"></script>
+  <script>
+  const getCaptchaToken = () => {
+    return new Promise((resolve, reject) => {
+      grecaptcha.ready(function () {
+        grecaptcha.execute('6LcdnI0oAAAAAHYW3hwztfZw9qAjX4TiviE4fWip', {action: 'signup'}).then(function (token) {
+          resolve(token);
+        }, function () {
+          reject(null);
+        })
+      });
+    });
+  };
+  (function ($) {
+    const submitNewsletterEmail = async (email) => {
+      const recaptchaToken = await getCaptchaToken()
+      const data = {
+        email,
+        recaptchaToken
+      };
+      const res = await $.ajax({
+        type: 'POST',
+        url: '/api/v1/newsletter',
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(data),
+      })
+      return res
+    }
+    $('#email-form :submit,#wf-form-Footer-Form :submit').on('click', async function (e) {
+      e.preventDefault()
+      const $this = $(this);
+      // const $form  = $this.closest('form');
+      // if(!$form.get(0).checkValidity()){
+      //   return
+      // }
+      $this.prop('disabled', true)
+      const email = $this.closest('form').find('input[type="email"]').val()
+      // skip if invalid email
+      if (!/^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/.test(email)) return;
+      const $formWrapper = $this.closest('.w-form');
+      const $successMessage = $formWrapper.find('.w-form-done')
+      const $errorMessage = $formWrapper.find('.w-form-fail')
+      const currentLabel = $this.val()
+      const waitLabel = $this.data('wait')
+      try {
+        $this.val(waitLabel)
+        await submitNewsletterEmail(email);
+        $successMessage.show()
+        $errorMessage.hide()
+      } catch (err) {
+        console.log(err)
+        $successMessage.hide()
+        $errorMessage.show()
+      } finally {
+        $this.prop('disabled', false)
+        $this.val(currentLabel)
+      }
+    })
+  })(jQuery)
+</script>
+  <script>
+  if (navigator.userAgent.includes("Safari")) {
+    document.querySelectorAll(".tabs-menu-views a,.tabs-menu  a,.tab-menus-features a").forEach((t) => (t.focus = function () {
+      // Do nothing
+      // HTMLElement.prototype.focus.apply(this, arguments);
+    }));
+  }
+</script><!--  Auto Rotate Webflow Tabs by Flowbase.co (v1.4 Updated 10/04/2023)  -->
+  <script>
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+    // Check if the screen width is greater than or equal to a certain value (e.g., 768px for typical non-mobile devices)
+    if (window.innerWidth >= 768) {
+      ([
+        {
+          selector: '.tabs-menu-views', 
+          delay: 7000
+        }, {
+          selector: '.tabs-menu',
+          delay: 7000
+        }, {
+          selector: '.tab-menus-features',
+          delay: 4000
+        }
+      ]).forEach(function (section) {
+        // click all tab-buttons with a short interval
+        const $active = $(section.selector).children('.w--current:first')
+        const $siblings = $active.siblings();
+        $($siblings).each(function (el, i) {
+          $(this).click();
+        })
+        $active.click();
+        let tabTimeout;
+        tabLoop();
+        function tabLoop() {
+          // clear any existing timeout
+          if (tabTimeout) clearTimeout(tabTimeout);
+          tabTimeout = setTimeout(function () {
+            console.log('tabLoop', section.selector);
+            let $next = $(section.selector).children('a.w--current:first').next();
+            if ($next.length) {
+              $next.click(); // user click resets timeout
+            } else {
+              $next = $(section.selector).children('a').first();
+              $next.click();
+            }
+          }, section.delay || 5000);
+        }
+        // click on tab-buttons, reset timeout and loop
+        $(section.selector).children('a').on('click', function () {
+          tabLoop();
+        });
+      });
+    }
+  });
+    let circle = document.getElementById('home-hero-glow');
+		let container = document.getElementById('page-wrapper'); // Use the correct ID of your parent element
+		const onMouseMove = (e) => {
+    		// Calculate the center coordinates of the circle
+    		let centerX = e.clientX - container.getBoundingClientRect().left - (circle.offsetWidth / 2);
+   		  let centerY = e.clientY - container.getBoundingClientRect().top - (circle.offsetHeight / 2);
+    		// Ensure the circle stays within the container bounds
+    		centerX = Math.min(Math.max(centerX, 0), container.offsetWidth - circle.offsetWidth);
+    		centerY = Math.min(Math.max(centerY, 0), container.offsetHeight - circle.offsetHeight);
+    		// Update the position of the circle based on the center coordinates
+    		circle.style.left = centerX + 'px';
+    		circle.style.top = centerY + 'px';
+		}
+document.addEventListener('mousemove', onMouseMove);
+</script>
+</body>
+</html>
